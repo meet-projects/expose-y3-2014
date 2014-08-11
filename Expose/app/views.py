@@ -7,4 +7,8 @@ def index(request):
     return HttpResponse("Hello fellas")
 
 
+def first(request, variable):
+    return HttpResponse("Something" % variable)	
+
+
 
