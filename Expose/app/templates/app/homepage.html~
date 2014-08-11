@@ -4,8 +4,19 @@
 EXPOSE
 <title>EXPOSE</title>
 </head>
+<<<<<<< HEAD
 <a href="register.html">SIGN UP</a>	
 <a href="login.html">LOG IN</a>
+=======
+<<<<<<< HEAD
+<a href="register.html">SIGN UP</a>
+<a href="login.html"> LOG IN</a>
+
+=======
+<a href="register.html">SIGN UP</a>	
+<a href="login.html">LOG IN</a>
+>>>>>>> d145c9a45262294f740261f18bdd5e75a435e082
+>>>>>>> 4c3b1fa144ea02a5b9f79306c4733eff78ab0db4
 <div>
  	
 </div>
