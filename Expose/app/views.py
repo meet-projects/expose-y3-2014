@@ -7,6 +7,9 @@ from app.models import *
 
 def home(request):
     return render(request, 'app/homepage.html')
+
+def login(request):
+    return render(request, 'app/login.html')
     
     ## return HttpResponse("Home sweet homepage")
 
