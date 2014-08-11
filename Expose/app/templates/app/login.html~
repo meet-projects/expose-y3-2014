@@ -9,7 +9,7 @@
 		Password: <input type="password" name="pwd">
 		</form>
 		<br>
-		<a href=forgotpassword.html>forgot your password?</a> 
+		<a href="URL">forgot your password?</a> 
 
 		</div> 
 	</body>
