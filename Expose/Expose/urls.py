@@ -11,5 +11,5 @@ urlpatterns = patterns('',
     
 
     url(r'^admin/', include(admin.site.urls)),
-    url(r'app/', include('polls.urls')),
+    url(r'$', include('app.urls')),
 )
