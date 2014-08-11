@@ -6,7 +6,7 @@ from app.models import *
 # Create your views here.
 
 def home(request):
-    return render(request, 'app/login.html')
+    return render(request, 'app/home.html')
     
     ## return HttpResponse("Home sweet homepage")
 
