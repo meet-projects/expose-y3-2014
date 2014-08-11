@@ -4,14 +4,10 @@
 EXPOSE
 <title>EXPOSE</title>
 </head>
-<<<<<<< HEAD
+
 <a href="register.html">SIGN UP</a>
 <a href="login.html"> LOG IN</a>
 
-=======
-<a href="register.html">SIGN UP</a>	
-<a href="login.html">LOG IN</a>
->>>>>>> d145c9a45262294f740261f18bdd5e75a435e082
 <div>
  	
 </div>
