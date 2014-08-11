@@ -340,12 +340,12 @@ perspectives: Israeli and Palestinian, and gives people a stage to debate.</p>
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
 
- <div class="footer">
+
+    <div class="footer">
       <div class="container">
         <p class="text-muted">Place sticky footer content here.</p>
       </div>
     </div>
-    
     <script src="{{ STATIC_URL }}js/bootstrap.min.js"></script>
   </body>
 </html>
