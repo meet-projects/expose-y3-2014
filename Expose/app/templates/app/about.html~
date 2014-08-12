@@ -1,0 +1,12 @@
+{% extends "app/base.html" %}
+
+
+{% block content %}
+	<div id= "about">
+		<h1>About Us</h1>
+		<p1> We are a group of Israeli and Palestinian students in a program called "MEET"............................................................... </p1>
+ 		<br>
+		<img id="roni" src="{{ STATIC_URL }}/img/roni.jpg" alt="Smiley face">
+	</div>
+
+{% endblock %}
