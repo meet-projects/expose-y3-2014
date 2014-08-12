@@ -17,6 +17,9 @@ def about(request):
 def signup(request):
     return render(request, 'app/signup.html')
 
+def articles(request):
+    return render(request, 'app/articles.html')
+
     
     ## return HttpResponse("Home sweet homepage")
 
