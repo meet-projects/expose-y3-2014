@@ -70,13 +70,11 @@
 
 {% block content %}
       <div class="jumbotron">
-        <p>Welcome! <br> Expose is a website built on people’s opinions, which shows two articles from two different
-
-perspectives: Israeli and Palestinian, and gives people a stage to debate.</p>
+        <p>Welcome! <br> Expose is a website built on people’s opinions, which shows two articles from two different perspectives: Israeli and Palestinian, and gives people a stage to debate.</p>
         <!--<p><a href="#" class="btn btn-primary btn-lg" role="button">Learn more &raquo;</a></p> -->
       </div>
 
-<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+ <a href = "specific"><div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
     <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
@@ -99,7 +97,7 @@ perspectives: Israeli and Palestinian, and gives people a stage to debate.</p>
       </div>
     </div>
 
-  </div>
+  </div></a>
 
   <!-- Controls -->
   <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
@@ -115,10 +113,10 @@ perspectives: Israeli and Palestinian, and gives people a stage to debate.</p>
         <p>We differentiate ourselves from competing websites like online newspapers by  the fact that our two focuses are providing the Palestinian and Israeli perspectives on a specific subject, and supplying a discussion between the different users about the subject. Therefore our website puts an emphasis on exposing the customers to Israeli and Palestinian perspectives via articles and discussions.</p>
 	<h1></h1>
  <p> See more articles
-        <a href="#" class="btn btn-primary btn-lg" role="button"> Articles &raquo;</a> </p>
+        <a href="articles" class="btn btn-primary btn-lg" role="button"> Articles &raquo;</a> </p>
         <p> Find out more about us
 
-        <a href="#" class="btn btn-primary btn-lg" role="button"> About &raquo;</a> </p>
+        <a href="about" class="btn btn-primary btn-lg" role="button"> About &raquo;</a> </p>
       </div>
 
 
