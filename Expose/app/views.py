@@ -20,6 +20,8 @@ def signup(request):
 def articles(request):
     return render(request, 'app/articles.html')
 
+def donate(request):
+    return render (request, "app/donate.html")
     
     ## return HttpResponse("Home sweet homepage")
 
