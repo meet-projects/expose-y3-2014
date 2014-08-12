@@ -12,7 +12,7 @@ urlpatterns = patterns('',
     url(r'articles$', views.articles, name= 'articles'),
     url(r'donate$', views.donate, name= 'donate'),
     url(r'welcome$', views.welcome, name= 'welcome'),
-    url(r'specific2$', views.specific, name= 'specific2'),
+    url(r'specific2$', views.specific2, name= 'specific2'),
 )
 
 
