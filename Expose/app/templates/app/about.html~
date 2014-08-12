@@ -47,5 +47,5 @@ We noticed that in our region, Israelis and Palestinians consume different news 
 
     </div><!-- /.container -->
 
-
+<br>
 {% endblock %}
