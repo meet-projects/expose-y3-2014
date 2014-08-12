@@ -56,6 +56,11 @@
     background-color:#CEE3F6;
 }
 
+.li
+{
+list-style-type: none;
+}
+
 
 </style>
 
@@ -74,22 +79,28 @@
 				</span>
 			</div>
 		</div>
+<br>
+<br>	
+</div>
+</div>
+<div class="row">
+<div id = "" class="col-md-12">
 <div id= "comments_section">
 <h4>comments</h4>
 <ul>
-  <li> <img id="userpic" src ="{{ STATIC_URL }}img/userpic.png" width="35" > comment 1</li>
-  <li><img id="userpic" src ="{{ STATIC_URL }}img/userpic.png" width="35" >comment 2
+  <li> <p2>roni london</p2> <br> <img id="userpic" src ="{{ STATIC_URL }}img/userpic.png" width="45" > comment 1</li>
+  <li><img id="userpic" src ="{{ STATIC_URL }}img/userpic.png" width="45" >comment 2
     <ul>
-    <li><img id="userpic" src ="{{ STATIC_URL }}img/userpic.png" width="35" >reply to comment 2</li>
+    <li><img id="userpic" src ="{{ STATIC_URL }}img/userpic.png" width="45" >reply to comment 2</li>
       </ul>
     </li>
-<li><img id="userpic" src ="{{ STATIC_URL }}img/userpic.png" width="35" >comment 3</li>
+<li><img id="userpic" src ="{{ STATIC_URL }}img/userpic.png" width="45" >comment 3</li>
     </ul>
   </li>
   
 </ul>
 </div>
-	
+</div>
 </div>
 </div>
 
