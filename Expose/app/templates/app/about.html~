@@ -1,6 +1,14 @@
 {% extends "app/base.html" %}
 
 {% block content %}
+<<<<<<< HEAD
+	<div id= "about">
+		<h1>About Us</h1>
+		<p1> We are a group of Israeli and Palestinian students in a program called "MEET"...</p1>
+ 		<br>
+		<img id="roni" src="{{ STATIC_URL }}/img/roni.jpg" alt="picture" 			width="200" height="200">
+	</div>
+=======
 
 
 
@@ -17,6 +25,7 @@
 We noticed that in our region, Israelis and Palestinians consume different news sources, which give a one-sided presentation of current events ,because of lack of exposure to each other, we have created a website built on people’s opinions, which shows two articles from different perspectives (Israeli and Palestinian), and gives people a stage to debate.
 </P>
       </div>
+<img id="roni" src="{{ STATIC_URL }}/img/roni.jpg" alt="Smiley face">
 
       <div class="row">
 
@@ -39,5 +48,10 @@ We noticed that in our region, Israelis and Palestinians consume different news 
 
     </div><!-- /.container -->
 
+<<<<<<< HEAD
+>>>>>>> 4aceeaea42982875175b87ee45e4247d811d471b
+
+=======
 <br>
+>>>>>>> 65b7ea26fa07d6c5b2eff06faba546664a8b60dd
 {% endblock %}
