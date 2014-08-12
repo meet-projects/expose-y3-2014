@@ -10,6 +10,8 @@ urlpatterns = patterns('',
 >>>>>>> 06f70161602339441aef0729f964afc4b412a1a7
     url(r'login$', views.login, name='login'),
     url(r'specific$', views.specific, name = 'specific'),
+    url(r'about$', views.about, name = 'about'),
+
 )
 
 
