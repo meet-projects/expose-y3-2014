@@ -8,9 +8,26 @@
 
 <class="jumbotron hero-spacer">
 	<h1>A Warm Welcome!</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, ipsam, eligendi, in quo sunt possimus non incidunt odit vero aliquid similique quaerat nam nobis illo aspernatur vitae fugiat numquam repellat.</p>
-            <p><a class="btn btn-primary btn-large">Call to action!</a>
+        <p id="p1">Dear user ,</p>
+	<p id="p2">We are happy to inform you that your registration to our website is finished. Now you are can use our website to its full potential and features .</p>
+	<p id ="p3"> Enjoy </p>  
+
+<<<<<<< HEAD
+            <p><a class="btn btn-primary btn-large" href="login" >Sign in</a>
+=======
+            <p><a href = "articles" class="btn btn-primary btn-large">Call to action!</a>
+>>>>>>> 9f60bee4f736ca0c9a7d5413f7e990647bfbccd2
             </p>
+<style>
+#p1{
+font-size:150%;
+}
+#p2{
+font-size:150%;
+}
+#p3{
+font-size:150%;
+}
 
 
 {% endblock %}

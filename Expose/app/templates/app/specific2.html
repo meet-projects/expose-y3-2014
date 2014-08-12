@@ -5,54 +5,48 @@
 {% block content %}
 
 <div class="container">
-    <div class="row">
-        <div class="article1">
-            <a id = "linktext4" href = "http://www.maannews.net/eng/ViewDetails.aspx?ID=719790"><div class="thumbnail">
-                <img id="img1" src="{{ STATIC_URL }}img/title783911756.png" alt="">
-			<img id="img3" src ="{{ STATIC_URL }}img/65118_345x230.jpg" alt= "">
-    	            <div id="hi" class="caption">
-                    <h4 class="text-center">Report: Israel defense minister says Hamas has soldier's body</h4>
+	<div class="row">
+		<div class="col-md-6">
+			<div class="article1">
+				<a id = "linktext4" href = "http://www.maannews.net/eng/ViewDetails.aspx?ID=719790">
+					<div class="thumbnail">
+						<img id="img1" src="{{ STATIC_URL }}img/title783911756.png" alt="">
+						<img id="img3" src ="{{ STATIC_URL }}img/65118_345x230.jpg" alt= "">
+    		            				<div id="hi" class="caption">
+        	            					<h4 class="text-center">Report: Israel defense minister says Hamas has soldier's body</h4>
                     <p>BETHLEHEM (Ma'an) -- Israeli Defense Minister Moshe Yaalon said Sunday that the body of missing soldier Oron Shaul is "obviously" in the hands of Hamas, Israeli media reported.
 
 "It's obvious to us that Oron's body is in the hands of Hamas, and we're making every effort to retrieve it," Yaalon said, according to the Israeli news site Ynet.
-			
-                    </p>
-                    <p class="text-center">
-                        
-                    </p>
-                </div>
-            </div>
-             </a>
-        </div>        
-         <div class="article2">
-	    <a id = "linktext3" href = "http://www.ynetnews.com/articles/0,7340,L-4557467,00.html">
-            <div class="thumbnail">
-                <img id="img2"src="{{ STATIC_URL }}img/ynet-logo.jpg" alt="">
-		<img id="img4" src = "{{ STATIC_URL }}img/551548501001494640360no.jpg" alt= "">
-                <div id="hi"class="caption">
-                    <h4 class="text-center">  	
-
-Ya'alon tells family: Oron Shaul's body is in Hamas' hands</h4>
+        	            					</p>
+								<p class="text-center"></p>
+        	        				</div>
+					</div>
+        	     		</a>
+			</div>
+		</div>
+		<div class="col-md-6">
+			<div class="article2">
+				<a id = "linktext3" href = "http://www.ynetnews.com/articles/0,7340,L-4557467,00.html">
+					<div class="thumbnail">
+        	        			<img id="img2"src="{{ STATIC_URL }}img/ynet-logo.jpg" width="220px">
+<br>
+						<img id="img4" src = "{{ STATIC_URL }}img/551548501001494640360no.jpg" width="345px" height="225px">
+        	        			<div id="hi"class="caption">
+        	            				<h4 class="text-center">Ya'alon tells family: Oron Shaul's body is in Hamas' hands</h4>
                     <p>"It's obvious to us that Oron's body is in the hands of Hamas, and we're making every effort to retrieve it," Ya'alon said, noting the efforts were on the diplomatic level - meaning in ceasefire talks with Hamas. 
 "Unfortunately we have a lot of experience with cases like this, and unfortunately I've encountered it during my military service," the former IDF chief of staff said.
 
- </p>
-                    <p class="text-center">
-                        
-                    </p>
-                </div>
-             </a>
-            </div>
+								</p>
 
-        </div>        
-    </div>
-
-   
-</div>
+        	            					<p class="text-center"></p>
+        	        			</div>
+					</div>
+        	     		</a>
+        	    	</div>
+        	</div>        
+    	</div>
 <!-- End container -->
-</html>
-<style> 
-
+<style>   
 .thumbnail {
     position: relative;
     padding: 0px;
@@ -62,72 +56,40 @@ Ya'alon tells family: Oron Shaul's body is in Hamas' hands</h4>
 .thumbnail:hover {
     background-color:#CEE3F6;
 }
-
-
-
 </style>
 
 
-
-
-
-	
-<div id="whole"class="container">
-    <div id="id"class="row bodycolor">
+<div class="row well">
 	<br />
-	<div id = "dumb" class="col-md-12">
+	<div id = "" class="col-md-6 ">
+				<textarea id="blabla" name="InputMessage" id="InputMessage" class="form-control" placeholder="Enter Comment"></textarea>
+	</div>
+<div id = "" class="col-md-6">
 		<div class="form-group">
 			<div class="input-group">
 				<div class="col-md-12 text-center">
-				<textarea id="blabla" name="InputMessage" id="InputMessage" class="form-control" placeholder="Enter Comment">
-				</textarea>
-            				<span class="btn-group">
+            			<span class="btn-group" style="float:right;">
                 				<a id="pt1" data-toggle="dropdown" class="btn btn-info allicon">Comment</a>
-					</span>
-				</div>
+				</span>
 			</div>
 		</div>
+
+<h4>comments</h4>
+<ul>
+  <li> <img id="userpic" src ="{{ STATIC_URL }}img/userpic.png" width="35" > comment 1</li>
+  <li><img id="userpic" src ="{{ STATIC_URL }}img/userpic.png" width="35" >comment 2
+    <ul>
+    <li><img id="userpic" src ="{{ STATIC_URL }}img/userpic.png" width="35" >reply to comment 2</li>
+      </ul>
+    </li>
+<li><img id="userpic" src ="{{ STATIC_URL }}img/userpic.png" width="35" >comment 3</li>
+    </ul>
+  </li>
+  
+</ul>
 	</div>
 </div>
-
-<style>
-#whole{
-margin-top:350px;
-width: 200%;
-height:40%;
-}
-
-
-    #pt1 {
-        width:200px;
-	float:right;
-	margin-left:5px;
-	
-    }
-#id{
-	height:10%;
-	width:50%;
-}
-
-
-
-
-    .bodycolor {
-        background-color: #F0EEEE;
-        min-height: 347px;
-    }
-
-    .allicon {
-        font-size: 27px;                
-    }
-
-#blabla{
-	width:800px;
-}
-#dumb{
-	width:100%;
-}
-</style>
+</div>
 
 
 

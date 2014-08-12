@@ -34,6 +34,7 @@
         	            					<p>TEL AVIV (AFP) -- Israel will not return to talks to end the conflict in Gaza while Palestinian militants continue cross-border rocket attacks, Prime Minister Benjamin Netanyahu said Sunday.
 "Israel will not engage in negotiations under fire, and will continue to act in every way to change the current reality and to bring quiet to all of its citizens," he told a cabinet meeting at the defense ministry in Tel Aviv, his office said.
 								</p>
+
         	            					<p class="text-center"></p>
         	        			</div>
 					</div>
@@ -42,10 +43,7 @@
         	</div>        
     	</div>
 <!-- End container -->
-<style> 
-#hi{
-	height:204px;
-}  
+<style>   
 .thumbnail {
     position: relative;
     padding: 0px;
@@ -56,6 +54,16 @@
     background-color:#CEE3F6;
 }
 
+#list
+{
+list-style-type: none;
+}
+
+#list2
+{
+list-style-type: none;
+}
+p2.thick {font-weight:bold;}
 
 </style>
 
@@ -74,58 +82,32 @@
 				</span>
 			</div>
 		</div>
-
+<br>
+<br>	
+</div>
+</div>
+<div class="row">
+<div id = "" class="col-md-12">
+<div id= "comments_section">
 <h4>comments</h4>
-<ul>
-  <li> <img id="userpic" src ="{{ STATIC_URL }}img/userpic.png" width="35" > comment 1</li>
-  <li><img id="userpic" src ="{{ STATIC_URL }}img/userpic.png" width="35" >comment 2
-    <ul>
-    <li><img id="userpic" src ="{{ STATIC_URL }}img/userpic.png" width="35" >reply to comment 2</li>
+<ul id="list">
+  <li> <p2>person1</p2> <br> <img id="userpic" src ="{{ STATIC_URL }}img/userpic.png" width="45" > comment 1</li>
+<br>
+  <li><p2>person2</p2> <br><img id="userpic" src ="{{ STATIC_URL }}img/userpic.png" width="45" >comment 2
+    <ul id="list2">
+    <li><p2>person3</p2> <br><img id="userpic" src ="{{ STATIC_URL }}img/userpic.png" width="45" >reply to comment 2</li>
       </ul>
     </li>
-<li><img id="userpic" src ="{{ STATIC_URL }}img/userpic.png" width="35" >comment 3</li>
+<br>
+<li><p2>person4</p2> <br><img id="userpic" src ="{{ STATIC_URL }}img/userpic.png" width="45" >comment 3</li>
     </ul>
   </li>
   
 </ul>
-	</div>
 </div>
 </div>
-<<<<<<< HEAD
-<style>
-#whole{
-margin-top:350px;
-width: 200%;
-height:40%;
-}
-
-
-    #pt1 {
-        width:200px;
-	float:right;
-	margin-left:5px;
-	
-    }
-#id{
-	height:10%;
-	width:50%;
-}
-
-
-
-
-    .bodycolor {
-        background-color: #F0EEEE;
-        min-height: 347px;
-    }
-
-    .allicon {
-        font-size: 27px;                
-    }
-=======
-
->>>>>>> 9eddc4ba83b5b906f4792fb812c8084b30d1dcb9
-
+</div>
+</div>
 
 
 
