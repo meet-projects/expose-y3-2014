@@ -1,17 +1,23 @@
 {% extends "app/base.html" %}
 
 {% block content %}
+<<<<<<< HEAD
+	<div id= "about">
+		<h1>About Us</h1>
+		<p1> We are a group of Israeli and Palestinian students in a program called "MEET"...</p1>
+ 		<br>
+		<img id="roni" src="{{ STATIC_URL }}/img/roni.jpg" alt="picture" 			width="200" height="200">
+	</div>
+=======
 
 
-
-    <link href="{{ STATIC_URL }}/css/about.css" rel="stylesheet">
 
 
     <div class="container">
 
       <div class="blog-header">
         <h1 class="blog-title">About</h1>
-	<h2 class="blog-post-title">Who are we</h2>
+	<h2 class="blog-post-title">Who we are</h2>
         <p class="lead blog-description">We are a group of Palestinians and Israelis from the Jerusalem region. We are students at the MEET program (Middle East Education through Technology), and Expose is our end of year project.
  </p>
 	<h2 class="blog-post-tittle">What do we do</h2>
@@ -19,6 +25,7 @@
 We noticed that in our region, Israelis and Palestinians consume different news sources, which give a one-sided presentation of current events ,because of lack of exposure to each other, we have created a website built on people’s opinions, which shows two articles from different perspectives (Israeli and Palestinian), and gives people a stage to debate.
 </P>
       </div>
+<img id="roni" src="{{ STATIC_URL }}/img/roni.jpg" alt="Smiley face">
 
       <div class="row">
 
@@ -32,20 +39,19 @@ We noticed that in our region, Israelis and Palestinians consume different news 
 	    <p>0522926800</p>
             <p>02-5815662</p>
 
-            <hr>
+            
 
-          <ul class="pager">
-            <li id="donate" ><a href="#">Donate</a></li>
-          </ul>
 
         </div><!-- /.blog-main -->
-
-        <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
-          <div class="sidebar-module sidebar-module-inset">
 
       </div><!-- /.row -->
 
     </div><!-- /.container -->
 
+<<<<<<< HEAD
+>>>>>>> 4aceeaea42982875175b87ee45e4247d811d471b
 
+=======
+<br>
+>>>>>>> 65b7ea26fa07d6c5b2eff06faba546664a8b60dd
 {% endblock %}
