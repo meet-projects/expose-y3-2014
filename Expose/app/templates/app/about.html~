@@ -1,5 +1,6 @@
 {% extends "app/base.html" %}
 
+<<<<<<< HEAD
 {% block content %}
 
 
@@ -39,7 +40,6 @@
         <h1 class="blog-title">About</h1>
         <p class="lead blog-description">We are Palestinian and Israeli MEET students who work together to make a positive economical/political/social impact in the midlle east, so we created this website that shows two articles from two prespectives and let people see how the news that they get is bias and give them a platform to debate . </p>
       </div>
-<img id="roni" src="{{ STATIC_URL }}/img/roni.jpg" alt="Smiley face">
 
       <div class="row">
 
@@ -65,5 +65,15 @@
 
     </div><!-- /.container -->
 
+=======
+>>>>>>> b73fd0ad91c0c5b88afee20e9ff3678391bee873
+
+{% block content %}
+	<div id= "about">
+		<h1>About Us</h1>
+		<p1> We are a group of Israeli and Palestinian students in a program called "MEET"............................................................... </p1>
+ 		<br>
+		<img id="roni" src="{{ STATIC_URL }}/img/roni.jpg" alt="Smiley face">
+	</div>
 
 {% endblock %}
