@@ -91,6 +91,7 @@ margin-right:-10px;
 height:400px;
 }
 #img1{
+margin-top:5px;
 margin-bottom:10px;
 height:80px;
 width:300px;
@@ -128,6 +129,16 @@ height:400px;
             				<span class="btn-group">
                 				<a id="pt1" data-toggle="dropdown" class="btn btn-info allicon">Comment</a>
 					</span>
+
+<p id="adam"> Omar Bitar </p>
+<p> This should be a really long text about us fighting over some stuff but in the mean time I'm trying some shit and testing it<p>
+<style>
+#adam{
+color:blue;
+margin-top:750px;
+}
+
+
 				</div>
 			</div>
 		</div>
