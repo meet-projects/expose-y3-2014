@@ -8,7 +8,10 @@
 
 <class="jumbotron hero-spacer">
 	<h1>A Warm Welcome!</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, ipsam, eligendi, in quo sunt possimus non incidunt odit vero aliquid similique quaerat nam nobis illo aspernatur vitae fugiat numquam repellat.</p>
+        <p>dear user ,</p><br>
+	<p>We are happy to inform you that your registration to our website is finished. Now you are can use our website to its full potential and features .</p>
+	<p> Enjoy </p>  
+
             <p><a class="btn btn-primary btn-large">Call to action!</a>
             </p>
 
