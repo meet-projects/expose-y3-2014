@@ -1,4 +1,9 @@
-<!DOCTYPE html>
+{% extends "base.html" %}
+
+
+
+
+<!--<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -20,7 +25,7 @@
 <body role="document">
 
     <!-- Fixed navbar -->
-<body>
+<!--<body>
 
     <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container">
@@ -53,12 +58,18 @@
             </li>
           </ul>
         </div><!--/.nav-collapse -->
-      </div>
+<!--      </div>
     </div>
 
     <div class="container theme-showcase" role="main">
 
       <!-- Main jumbotron for a primary marketing message or call to action -->
+
+
+
+
+{% block content %}
+
       <div class="jumbotron">
 	<h1></h1>
 <p>_</p>
@@ -106,6 +117,7 @@ perspectives: Israeli and Palestinian, and gives people a stage to debate.</p>
 
       <!-- Main jumbotron for a primary marketing message or call to action -->
       <div class="jumbotron">
+        <p>We differentiate ourselves from competing websites like online newspapers by  the fact that our two focuses are providing the Palestinian and Israeli perspectives on a specific subject, and supplying a discussion between the different users about the subject. Therefore our website puts an emphasis on exposing the customers to Israeli and Palestinian perspectives via articles and discussions.</p>
 	<h1></h1>
  <p> See more articles
         <a href="#" class="btn btn-primary btn-lg" role="button"> Articles &raquo;</a> </p>
@@ -114,6 +126,9 @@ perspectives: Israeli and Palestinian, and gives people a stage to debate.</p>
         <a href="#" class="btn btn-primary btn-lg" role="button"> About &raquo;</a> </p>
       </div>
 
+
+
+{% endblock %}
 
 
  <!--     <div class="page-header">
@@ -340,7 +355,7 @@ perspectives: Israeli and Palestinian, and gives people a stage to debate.</p>
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
 
-
+<!---
     <div class="footer">
       <div class="container">
         <p class="text-muted">Place sticky footer content here.</p>
