@@ -63,13 +63,7 @@
 <div class="row well">
 	<br />
 	<div id = "" class="col-md-6 ">
-		<div class="form-group">
-			<div class="input-group">
-				<div class="col-md-12 text-center">
 				<textarea id="blabla" name="InputMessage" id="InputMessage" class="form-control" placeholder="Enter Comment"></textarea>
-    
-			</div>
-		</div>
 	</div>
 <div id = "" class="col-md-6">
 		<div class="form-group">
@@ -80,10 +74,57 @@
 				</span>
 			</div>
 		</div>
+
+<h4>comments</h4>
+<ul>
+  <li> <img id="userpic" src ="{{ STATIC_URL }}img/userpic.png" width="35" > comment 1</li>
+  <li><img id="userpic" src ="{{ STATIC_URL }}img/userpic.png" width="35" >comment 2
+    <ul>
+    <li><img id="userpic" src ="{{ STATIC_URL }}img/userpic.png" width="35" >reply to comment 2</li>
+      </ul>
+    </li>
+<li><img id="userpic" src ="{{ STATIC_URL }}img/userpic.png" width="35" >comment 3</li>
+    </ul>
+  </li>
+  
+</ul>
 	</div>
 </div>
 </div>
+<<<<<<< HEAD
+<style>
+#whole{
+margin-top:350px;
+width: 200%;
+height:40%;
+}
 
+
+    #pt1 {
+        width:200px;
+	float:right;
+	margin-left:5px;
+	
+    }
+#id{
+	height:10%;
+	width:50%;
+}
+
+
+
+
+    .bodycolor {
+        background-color: #F0EEEE;
+        min-height: 347px;
+    }
+
+    .allicon {
+        font-size: 27px;                
+    }
+=======
+
+>>>>>>> 9eddc4ba83b5b906f4792fb812c8084b30d1dcb9
 
 
 
