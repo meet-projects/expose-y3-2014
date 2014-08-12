@@ -14,6 +14,10 @@ def login(request):
     ## return HttpResponse("Home sweet homepage")
 
 
+def specific(request):
+    return render(request, 'app/specific.html')
+
+
 def first(request, variable):
     return HttpResponse("Something" % variable)	
 
