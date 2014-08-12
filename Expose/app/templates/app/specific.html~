@@ -4,79 +4,44 @@
 
 {% block content %}
 
-<<<<<<< HEAD
-<html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-=======
->>>>>>> 2b68b4c3b9cd614a61f1f7cdfc52751af2a01ab3
 <div class="container">
-    <div class="row">
-        <div class="article1">
-            <a href = "http://www.israelhayom.com/site/newsletter_article.php?id=19359"><div class="thumbnail">
-                <img id="img1" src="{{ STATIC_URL }}img/logo_new_eng.png" alt="">
-			<img id="img3" src ="{{ STATIC_URL }}img/140766563251130065a_b.jpg" alt= "">
-    	            <div class="caption">
-                    <h4 class="text-center">Netanyahu: Gaza operation will take time and patience</h4>
-                    <p>
+	<div class="row">
+		<div class="col-md-6">
+			<div class="article1">
+				<a id = "linktext4" href = "http://www.israelhayom.com/site/newsletter_article.php?id=19359">
+					<div class="thumbnail">
+						<img id="img1" src="{{ STATIC_URL }}img/logo_new_eng.png" alt="">
+						<img id="img3" src ="{{ STATIC_URL }}img/140766563251130065a_b.jpg" alt= "">
+    		            				<div id="hi" class="caption">
+        	            					<h4 class="text-center">Netanyahu: Gaza operation will take time and patience</h4>
+        	            					<p>
 			Hamas threatens to quit cease-fire talks unless Israeli negotiators, who left talks on Friday, return to Cairo • Prime Minister Benjamin Netanyahu reiterates: Israel will not negotiate under fire, operation will continue until quiet is restored.
-                    </p>
-                    <p class="text-center">
-                        
-                    </p>
-                </div>
-            </div>
-             </a>
-        </div>        
-         <div class="article2">
-	    <a href = "http://www.maannews.net/eng/ViewDetails.aspx?ID=719547">
-            <div class="thumbnail">
-                <img id="img2"src="{{ STATIC_URL }}img/title783911756.png" alt="">
-		<img id="img4" src = "{{ STATIC_URL }}img/292028_345x230.jpg" alt= "">
-                <div id="hi"class="caption">
-                    <h4 class="text-center">Netanyahu: Israel 'will not negotiate under fire'</h4>
-                    <p>TEL AVIV (AFP) -- Israel will not return to talks to end the conflict in Gaza while Palestinian militants continue cross-border rocket attacks, Prime Minister Benjamin Netanyahu said Sunday.
-"Israel will not engage in negotiations under fire, and will continue to act in every way to change the current reality and to bring quiet to all of its citizens," he told a cabinet meeting at the defense ministry in Tel Aviv, his office said.</p>
-                    <p class="text-center">
-                        
-                    </p>
-                </div>
-             </a>
-            </div>
-
-        </div>        
-    </div>
-
-   
-</div>
+        	            					</p>
+								<p class="text-center"></p>
+        	        				</div>
+					</div>
+        	     		</a>
+			</div>
+		</div>
+		<div class="col-md-6">
+			<div class="article2">
+				<a id = "linktext3" href = "http://www.maannews.net/eng/ViewDetails.aspx?ID=719547">
+					<div class="thumbnail">
+        	        			<img id="img2"src="{{ STATIC_URL }}img/title783911756.png" alt="">
+						<img id="img4" src = "{{ STATIC_URL }}img/292028_345x230.jpg" alt= "">
+        	        			<div id="hi"class="caption">
+        	            				<h4 class="text-center">Netanyahu: Israel 'will not negotiate under fire'</h4>
+        	            					<p>TEL AVIV (AFP) -- Israel will not return to talks to end the conflict in Gaza while Palestinian militants continue cross-border rocket attacks, Prime Minister Benjamin Netanyahu said Sunday.
+"Israel will not engage in negotiations under fire, and will continue to act in every way to change the current reality and to bring quiet to all of its citizens," he told a cabinet meeting at the defense ministry in Tel Aviv, his office said.
+								</p>
+        	            					<p class="text-center"></p>
+        	        			</div>
+					</div>
+        	     		</a>
+        	    	</div>
+        	</div>        
+    	</div>
 <!-- End container -->
-</html>
 <style> 
 #hi{
 	height:204px;
@@ -91,108 +56,35 @@
     background-color:#CEE3F6;
 }
 
-.votes {
-    font-size: 47px;    
-    color:#197BB5;
-    padding:10px;
-}
-
-.thumbnail img {
-    width: 100%%;
-}
-
-
-.article1 {
-	width:50%;
-float:left;
-margin-top: 20px;
-margin-left:-10px;
-height:400px;
-}
-.article2 {
-	width:50%;
-float:right;
-margin-top: 20px;
-margin-right:-10px;
-height:400px;
-}
-#img1{
-height:100px;
-}
-#img2{
-height:100px;
-}
-#img3{
-height:400px;
-}
-#img4{
-height:400px;
-}
-
 
 </style>
 
 
-
-
-
-	
-<div id="whole"class="container">
-    <div id="id"class="row bodycolor">
+<div class="row well">
 	<br />
-	<div id = "dumb" class="col-md-12">
+	<div id = "" class="col-md-6 ">
 		<div class="form-group">
 			<div class="input-group">
 				<div class="col-md-12 text-center">
-				<textarea id="blabla" name="InputMessage" id="InputMessage" class="form-control" placeholder="Enter Comment">
-				</textarea>
-            				<span class="btn-group">
+				<textarea id="blabla" name="InputMessage" id="InputMessage" class="form-control" placeholder="Enter Comment"></textarea>
+    
+			</div>
+		</div>
+	</div>
+<div id = "" class="col-md-6">
+		<div class="form-group">
+			<div class="input-group">
+				<div class="col-md-12 text-center">
+            			<span class="btn-group" style="float:right;">
                 				<a id="pt1" data-toggle="dropdown" class="btn btn-info allicon">Comment</a>
-					</span>
-				</div>
+				</span>
 			</div>
 		</div>
 	</div>
 </div>
-
-<style>
-#whole{
-margin-top:350px;
-width: 200%;
-height:40%;
-}
+</div>
 
 
-    #pt1 {
-        width:200px;
-	float:right;
-	margin-left:5px;
-	
-    }
-#id{
-	height:10%;
-	width:50%;
-}
-
-
-
-
-    .bodycolor {
-        background-color: #F0EEEE;
-        min-height: 347px;
-    }
-
-    .allicon {
-        font-size: 27px;                
-    }
-
-#blabla{
-	width:800px;
-}
-#dumb{
-	width:100%;
-}
-</style>
 
 
 
