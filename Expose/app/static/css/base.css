@@ -3,3 +3,27 @@
 .topmargin {
     margin-top: 75px; 
 }
+
+
+
+.login {
+    margin-top: 10%;
+    width: 30%;
+    margin-bottom: 20%;
+}
+
+
+#loginbtn {
+margin-left:900%;
+margin-top:-51%;
+padding-top:0%;
+
+}
+
+
+#signupbtn {
+margin-left:750%;
+margin-top:-42%;
+padding-top:0%;
+
+}
