@@ -27,6 +27,15 @@
 
 
 
+<body id="hi">
+Articles on the 10th of August,2014.
+<style>
+#hi{
+font-size:25px;
+}
+
+</style>
+</body>
 
 
 
@@ -81,7 +90,7 @@
 }
 
 .thumbnail:hover {
-    background-color:#5CB85C;
+    background-color:#6699CC;
 }
 
 .votes {
