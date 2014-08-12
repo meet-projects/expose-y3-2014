@@ -70,9 +70,7 @@
 
 {% block content %}
       <div class="jumbotron">
-<p>_</p>
-<div></div>
-        <p>A website built on people’s opinions, which shows two articles from two different
+        <p>Welcome! <br> Expose is a website built on people’s opinions, which shows two articles from two different
 
 perspectives: Israeli and Palestinian, and gives people a stage to debate.</p>
         <!--<p><a href="#" class="btn btn-primary btn-lg" role="button">Learn more &raquo;</a></p> -->

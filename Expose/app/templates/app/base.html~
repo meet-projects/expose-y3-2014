@@ -13,6 +13,10 @@
        <link href="{{ STATIC_URL }}css/base.css" rel="stylesheet">
 
 
+{% block attach %}
+{% endblock %}
+
+
 <script src="{{ STATIC_URL }}js/jquery-1.11.1.min.js"></script>
 
   </head>
@@ -37,20 +41,16 @@
             <span class="icon-bar"></span>
           </button>
 	 
-          <a class="navbar-brand" href="#"> <img src="static/img/logo_inverted.png" width="120px" height="20px" alt="Expose"> </a>
+          <a class="navbar-brand" href="home"> <img src="static/img/logo_inverted.png" width="120px" height="20px" alt="Expose"> </a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-<<<<<<< HEAD
-            <li class="active"><a href="#">Home</a></li>
+            <li class="active"><a href="home">Home</a></li>
             <li><a href="#about">Articles</a></li>
             <li><a href="about">About & Contact Us</a></li>
-=======
-            <li class="active"><a href="">Home</a></li>
-            <li><a href="articles">Articles</a></li>
-            <li><a href="contact">About & Contact Us</a></li>
->>>>>>> 72123c52812574a77a647815a08fb67b983788a5
-            <li class="dropdown">
+	    <li><a href="login"><button type="submit" id = "loginbtn" class="btn btn-success">Login</a></button></li>
+            <li><a href="signup"><button type="submit" id = "signupbtn" class="btn btn-success">Sign up</a></button></li>
+            <!--<li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span></a>
               <ul class="dropdown-menu" role="menu">
                 <li><a href="signup">Sign up</a></li>
@@ -60,8 +60,9 @@
                 <li class="dropdown-header">Nav header</li>
                 <li><a href="#">Separated link</a></li>
                 <li><a href="#">One more separated link</a></li>
+		
               </ul>
-            </li>
+            </li> -->
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -74,7 +75,8 @@
 
 <div class="footer">
       <div class="container">
-        <p class="text-muted">Place sticky footer content here.</p>
+        <br>
+        <p class="text-muted">Expose Inc. 2014 MEET</p>
       </div>
     </div>
     <script src="{{ STATIC_URL }}js/bootstrap.min.js"></script>
