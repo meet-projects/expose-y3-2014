@@ -1,19 +1,33 @@
 {% extends "app/base.html" %}
 
 {% block content %}
+
+<style>
+#headertext{
+	color:#2572ff;
+
+
+}
+
+#logo{
+	-right:100%;
+}
+</style>
+
     <div class="container">
 
       <div class="blog-header">
+	<img id ="logopos" src="{{ STATIC_URL }}/img/logo1.png">
         <h1 class="blog-title">About</h1>
 	<hr>
-	<h2 class="blog-post-title">Who we are</h2>
+	<h2 id="headertext" class="blog-post-title">Who we are</h2>
         <p class="lead blog-description">We are a group of Palestinians and Israelis from the Jerusalem region. We are students at the MEET program (Middle East Education through Technology), and Expose is our end of year project.
  </p>
 <hr>
-	<h2 class="blog-post-tittle">What we do</h2>
+	<h2 id ="headertext" class="blog-post-tittle">What we do</h2>
 	<p class = "lead blog-description">
 We noticed that in our region, Israelis and Palestinians consume different news sources, which give a one-sided presentation of current events ,because of lack of exposure to each other, we have created a website built on people’s opinions, which shows two articles from different perspectives (Israeli and Palestinian), and gives people a stage to debate.
-</P>
+</P><hr>
       </div>
 
       <div class="row">
@@ -21,7 +35,7 @@ We noticed that in our region, Israelis and Palestinians consume different news 
         <div class="col-sm-8 blog-main">
 
           <div class="blog-post">
-            <h2 class="blog-post-title">Contact us </h2>
+            <h2 id="headertext" class="blog-post-title">Contact us </h2>
             
             <p>expose.meet@gmail.com</p>
             <p>manager.expose@gmail.com</p>
