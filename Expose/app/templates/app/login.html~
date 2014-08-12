@@ -7,7 +7,7 @@
 <!--
 		<div id = "log in">
 		
-		<h1>log in</h1>
+		<h1>Log In</h1>
 		
 		<form>
 		Username: <input type="text" name="username"><br><br>
@@ -24,7 +24,7 @@
     <div class="container login">
 
       <form class="form-signin" role="form">
-        <h2 class="form-signin-heading">Please sign in</h2>
+        <h2 class="form-signin-heading">Sign in</h2>
         <input type="email" class="form-control" placeholder="Email address" required="" autofocus="">
         <input type="password" class="form-control" placeholder="Password" required="">
         <div class="checkbox">
