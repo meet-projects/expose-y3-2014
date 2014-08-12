@@ -4,49 +4,20 @@
 {% block content %}
 
 	<div id="content box">
-<<<<<<< HEAD
-=======
-<!--
-		<div id = "log in">
-		
-		<h1>Log In</h1>
-		
-		<form>
-		Username: <input type="text" name="username"><br><br>
-		Password: <input type="password" name="pwd">
-		</form>
-		<br>
-		<a href=forgotpassword.html>forgot your password?</a> 
 
-		</div>
--->
->>>>>>> 104c498f2c38f0cd1b7ee5733d45162b71fd1867
 
 <div>
 
     <div class="container login">
 
       <form class="form-signin" role="form">
-<<<<<<< HEAD
         <h2 class="form-signin-heading">Sign up</h2>
-        <input type="email" class="form-control" placeholder="Email address" required="" autofocus="">
-        <input type="username" class="form-control" placeholder="Username" required="" autofocus="">
+        <input type="email" class="form-control" placeholder="Email address" required="" autofocus=""><hr>
+        <input type="username" class="form-control" placeholder="Username" required="" autofocus=""><hr>
         <input type="password" class="form-control" placeholder="Password" required="">
         <div class="checkbox">
         </div>
-        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign up</button>
-=======
-        <h2 class="form-signin-heading">Sign in</h2>
-        <input type="email" class="form-control" placeholder="Email address" required="" autofocus="">
-        <input type="password" class="form-control" placeholder="Password" required="">
-        <div class="checkbox">
-          <label>
-            <input type="checkbox" value="remember-me"> Remember me
-          </label>
-        </div>
-        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
->>>>>>> 104c498f2c38f0cd1b7ee5733d45162b71fd1867
-      </form>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign up</button>      </form>
 
     </div>
 	</div> 
