@@ -10,6 +10,13 @@ def home(request):
 
 def login(request):
     return render(request, 'app/login.html')
+
+def about(request):
+    return render(request, 'app/about.html')
+
+def signup(request):
+    return render(request, 'app/signup')
+
     
     ## return HttpResponse("Home sweet homepage")
 
