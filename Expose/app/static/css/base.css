@@ -13,6 +13,8 @@
 }
 
 
+
+
 #loginbtn {
 margin-left:900%;
 margin-top:-51%;
@@ -26,4 +28,27 @@ margin-left:750%;
 margin-top:-42%;
 padding-top:0%;
 
+}
+
+
+
+#linktext {
+    text-decoration:none;
+}
+
+
+
+
+#linktext2 {
+    text-decoration:none;
+}
+
+
+#linktext3 {
+    text-decoration:none;
+}
+
+
+#linktext4 {
+    text-decoration:none;
 }
