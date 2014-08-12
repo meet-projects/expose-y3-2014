@@ -25,10 +25,15 @@ def donate(request):
     
     ## return HttpResponse("Home sweet homepage")
 
+def welcome(request):
+    return render (request, "app/welcome.html")
+    
 
 def specific(request):
     return render(request, 'app/specific.html')
 
+def specific2(request):
+    return render(request, 'app/specific2.html')
 
 def first(request, variable):
     return HttpResponse("Something" % variable)	

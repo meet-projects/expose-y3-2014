@@ -10,7 +10,9 @@ urlpatterns = patterns('',
     url(r'about$', views.about, name = 'about'),
     url(r'signup$', views.signup, name = 'signup'),
     url(r'articles$', views.articles, name= 'articles'),
-    url(r'donate$', views.donate, name= 'donation page'),
+    url(r'donate$', views.donate, name= 'donate'),
+    url(r'welcome$', views.welcome, name= 'welcome'),
+    url(r'specific2$', views.specific, name= 'specific2'),
 )
 
 
