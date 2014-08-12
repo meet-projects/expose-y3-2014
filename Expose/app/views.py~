@@ -14,6 +14,9 @@ def login(request):
 def about(request):
     return render(request, 'app/about.html')
 
+def signup(request):
+    return render(request, 'app/signup.html')
+
     
     ## return HttpResponse("Home sweet homepage")
 
