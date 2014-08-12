@@ -4,11 +4,6 @@
 
 {% block content %}
 
-<<<<<<< HEAD
-=======
-<html>
->>>>>>> 954e9491ec549fd5a0b42f2e26a21a3f0e445794
-
 <div class="container">
     <div class="row">
         <div class="article1">
