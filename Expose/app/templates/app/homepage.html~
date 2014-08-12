@@ -1,4 +1,4 @@
-{% extends "base.html" %}
+{% extends "app/base.html" %}
 
 
 
@@ -69,11 +69,8 @@
 
 
 {% block content %}
-
       <div class="jumbotron">
-	<h1></h1>
 <p>_</p>
-<h1></h1>
 <div></div>
         <p>A website built on people’s opinions, which shows two articles from two different
 

@@ -1,5 +1,8 @@
-<html>
-	<body>
+{% extends "app/base.html" %}
+
+
+{% block content %}
+
 		<div id = "log in">
 		
 		<h1>log in</h1>
@@ -9,8 +12,9 @@
 		Password: <input type="password" name="pwd">
 		</form>
 		<br>
-		<a href="URL">forgot your password?</a> 
+		<a href=forgotpassword.html>forgot your password?</a> 
 
 		</div> 
-	</body>
-</html>
+
+
+{% endblock %}
