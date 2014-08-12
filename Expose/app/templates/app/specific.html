@@ -59,6 +59,11 @@
 list-style-type: none;
 }
 
+#list2
+{
+list-style-type: none;
+}
+
 
 </style>
 
@@ -86,13 +91,15 @@ list-style-type: none;
 <div id= "comments_section">
 <h4>comments</h4>
 <ul id="list">
-  <li> <p2>roni london</p2> <br> <img id="userpic" src ="{{ STATIC_URL }}img/userpic.png" width="45" > comment 1</li>
-  <li><img id="userpic" src ="{{ STATIC_URL }}img/userpic.png" width="45" >comment 2
-    <ul>
-    <li><img id="userpic" src ="{{ STATIC_URL }}img/userpic.png" width="45" >reply to comment 2</li>
+  <li> <p2>person1</p2> <br> <img id="userpic" src ="{{ STATIC_URL }}img/userpic.png" width="45" > comment 1</li>
+<br>
+  <li><p2>person2</p2> <br><img id="userpic" src ="{{ STATIC_URL }}img/userpic.png" width="45" >comment 2
+    <ul id="list2">
+    <li><p2>person3</p2> <br><img id="userpic" src ="{{ STATIC_URL }}img/userpic.png" width="45" >reply to comment 2</li>
       </ul>
     </li>
-<li><img id="userpic" src ="{{ STATIC_URL }}img/userpic.png" width="45" >comment 3</li>
+<br>
+<li><p2>person4</p2> <br><img id="userpic" src ="{{ STATIC_URL }}img/userpic.png" width="45" >comment 3</li>
     </ul>
   </li>
   

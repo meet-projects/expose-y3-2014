@@ -15,7 +15,7 @@
     		            				<div id="hi" class="caption">
         	            					<h4 class="text-center">Netanyahu: Gaza operation will take time and patience</h4>
         	            					<p>
-			Hamas threatens to quit cease-fire talks unless Israeli negotiators, who left talks on Friday, return to Cairo • Prime Minister Benjamin Netanyahu reiterates: Israel will not negotiate under fire, operation will continue until quiet is restored.<br>s
+			Hamas threatens to quit cease-fire talks unless Israeli negotiators, who left talks on Friday, return to Cairo • Prime Minister Benjamin Netanyahu reiterates: Israel will not negotiate under fire, operation will continue until quiet is restored.
         	            					</p>
 								<p class="text-center"></p>
         	        				</div>
@@ -54,7 +54,12 @@
     background-color:#CEE3F6;
 }
 
-.li
+#list
+{
+list-style-type: none;
+}
+
+#list2
 {
 list-style-type: none;
 }
@@ -85,14 +90,14 @@ list-style-type: none;
 <div id = "" class="col-md-12">
 <div id= "comments_section">
 <h4>comments</h4>
-<ul>
-  <li> <p2>roni london</p2> <br> <img id="userpic" src ="{{ STATIC_URL }}img/userpic.png" width="45" > comment 1</li>
-  <li><img id="userpic" src ="{{ STATIC_URL }}img/userpic.png" width="45" >comment 2
-    <ul>
-    <li><img id="userpic" src ="{{ STATIC_URL }}img/userpic.png" width="45" >reply to comment 2</li>
+<ul id="list">
+  <li> <p2>person1</p2> <br> <img id="userpic" src ="{{ STATIC_URL }}img/userpic.png" width="45" > comment 1</li>
+  <li><p2>person2</p2> <br><img id="userpic" src ="{{ STATIC_URL }}img/userpic.png" width="45" >comment 2
+    <ul id="list2">
+    <li><p2>person3</p2> <br><img id="userpic" src ="{{ STATIC_URL }}img/userpic.png" width="45" >reply to comment 2</li>
       </ul>
     </li>
-<li><img id="userpic" src ="{{ STATIC_URL }}img/userpic.png" width="45" >comment 3</li>
+<li><p2>person4</p2> <br><img id="userpic" src ="{{ STATIC_URL }}img/userpic.png" width="45" >comment 3</li>
     </ul>
   </li>
   
