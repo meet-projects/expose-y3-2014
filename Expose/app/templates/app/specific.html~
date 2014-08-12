@@ -4,45 +4,13 @@
 
 {% block content %}
 
-<<<<<<< HEAD
-<html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-=======
->>>>>>> 2b68b4c3b9cd614a61f1f7cdfc52751af2a01ab3
 <div class="container">
     <div class="row">
         <div class="article1">
-            <a href = "http://www.israelhayom.com/site/newsletter_article.php?id=19359"><div class="thumbnail">
+            <a id = "linktext4" href = "http://www.israelhayom.com/site/newsletter_article.php?id=19359"><div class="thumbnail">
                 <img id="img1" src="{{ STATIC_URL }}img/logo_new_eng.png" alt="">
 			<img id="img3" src ="{{ STATIC_URL }}img/140766563251130065a_b.jpg" alt= "">
-    	            <div class="caption">
+    	            <div id="hi" class="caption">
                     <h4 class="text-center">Netanyahu: Gaza operation will take time and patience</h4>
                     <p>
 			Hamas threatens to quit cease-fire talks unless Israeli negotiators, who left talks on Friday, return to Cairo • Prime Minister Benjamin Netanyahu reiterates: Israel will not negotiate under fire, operation will continue until quiet is restored.
@@ -55,7 +23,7 @@
              </a>
         </div>        
          <div class="article2">
-	    <a href = "http://www.maannews.net/eng/ViewDetails.aspx?ID=719547">
+	    <a id = "linktext3" href = "http://www.maannews.net/eng/ViewDetails.aspx?ID=719547">
             <div class="thumbnail">
                 <img id="img2"src="{{ STATIC_URL }}img/title783911756.png" alt="">
 		<img id="img4" src = "{{ STATIC_URL }}img/292028_345x230.jpg" alt= "">
@@ -69,7 +37,7 @@
                 </div>
              </a>
             </div>
-
+	</div>
         </div>        
     </div>
 
