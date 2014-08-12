@@ -63,7 +63,7 @@ list-style-type: none;
 {
 list-style-type: none;
 }
-
+p2.thick {font-weight:bold;}
 
 </style>
 
@@ -92,11 +92,13 @@ list-style-type: none;
 <h4>comments</h4>
 <ul id="list">
   <li> <p2>person1</p2> <br> <img id="userpic" src ="{{ STATIC_URL }}img/userpic.png" width="45" > comment 1</li>
+<br>
   <li><p2>person2</p2> <br><img id="userpic" src ="{{ STATIC_URL }}img/userpic.png" width="45" >comment 2
     <ul id="list2">
     <li><p2>person3</p2> <br><img id="userpic" src ="{{ STATIC_URL }}img/userpic.png" width="45" >reply to comment 2</li>
       </ul>
     </li>
+<br>
 <li><p2>person4</p2> <br><img id="userpic" src ="{{ STATIC_URL }}img/userpic.png" width="45" >comment 3</li>
     </ul>
   </li>
