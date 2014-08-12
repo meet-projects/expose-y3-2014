@@ -1,6 +1,6 @@
-
 {% extends "app/base.html" %}
 
+<<<<<<< HEAD
 {% block content %}
 
 
@@ -52,7 +52,7 @@
             <hr>
 
           <ul class="pager">
-            <li><a href="#">Previous</a></li>
+            <li><a href="#">Donate</a></li>
             <li><a href="#">Next</a></li>
           </ul>
 
@@ -65,15 +65,15 @@
 
     </div><!-- /.container -->
 
+=======
+>>>>>>> b73fd0ad91c0c5b88afee20e9ff3678391bee873
 
+{% block content %}
+	<div id= "about">
+		<h1>About Us</h1>
+		<p1> We are a group of Israeli and Palestinian students in a program called "MEET"............................................................... </p1>
+ 		<br>
+		<img id="roni" src="{{ STATIC_URL }}/img/roni.jpg" alt="Smiley face">
+	</div>
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="../../dist/js/bootstrap.min.js"></script>
-    <script src="../../assets/js/docs.min.js"></script>
 {% endblock %}
-
-
-
