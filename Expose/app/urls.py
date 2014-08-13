@@ -13,6 +13,7 @@ urlpatterns = patterns('',
     url(r'donate$', views.donate, name= 'donate'),
     url(r'welcome$', views.welcome, name= 'welcome'),
     url(r'specific2$', views.specific2, name= 'specific2'),
+    url(r'thanks$', views.thanks, name= 'thanks'),
 )
 
 
