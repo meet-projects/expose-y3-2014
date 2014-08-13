@@ -1,133 +1,4 @@
-{% extends "app/base.html" %}
-
-
-
-{% block content %}
-
-<div class="container">
-	<div class="row">
-		<div class="col-md-6">
-			<div class="article1">
-				<a id = "linktext4" href = "http://www.israelhayom.com/site/newsletter_article.php?id=19359">
-					<div class="thumbnail">
-						<img id="img1" src="{{ STATIC_URL }}img/logo_new_eng.png" alt="">
-						<img id="img3" src ="{{ STATIC_URL }}img/140766563251130065a_b.jpg" alt= "">
-    		            				<div id="hi" class="caption">
-        	            					<h4 class="text-center">Netanyahu: Gaza operation will take time and patience</h4>
-        	            					<p>
-			Hamas threatens to quit cease-fire talks unless Israeli negotiators, who left talks on Friday, return to Cairo • Prime Minister Benjamin Netanyahu reiterates: Israel will not negotiate under fire, operation will continue until quiet is restored.
-        	            					</p>
-								<p class="text-center"></p>
-        	        				</div>
-					</div>
-        	     		</a>
-			</div>
-		</div>
-		<div class="col-md-6">
-			<div class="article2">
-				<a id = "linktext3" href = "http://www.maannews.net/eng/ViewDetails.aspx?ID=719547">
-					<div class="thumbnail">
-        	        			<img id="img2"src="{{ STATIC_URL }}img/title783911756.png" alt="">
-						<img id="img4" src = "{{ STATIC_URL }}img/292028_345x230.jpg" alt= "">
-        	        			<div id="hi"class="caption">
-        	            				<h4 class="text-center">Netanyahu: Israel 'will not negotiate under fire'</h4>
-        	            					<p>TEL AVIV (AFP) -- Israel will not return to talks to end the conflict in Gaza while Palestinian militants continue cross-border rocket attacks, Prime Minister Benjamin Netanyahu said Sunday.
-"Israel will not engage in negotiations under fire, and will continue to act in every way to change the current reality and to bring quiet to all of its citizens," he told a cabinet meeting at the defense ministry in Tel Aviv, his office said.
-								</p>
-
-        	            					<p class="text-center"></p>
-        	        			</div>
-					</div>
-        	     		</a>
-        	    	</div>
-        	</div>        
-    	</div>
-<!-- End container -->
-<style>   
-.thumbnail {
-    position: relative;
-    padding: 0px;
-    margin-bottom: 20px;
-}
-
-.thumbnail:hover {
-    background-color:#CEE3F6;
-}
-
-#list
-{
-list-style-type: none;
-}
-
-#list2
-{
-list-style-type: none;
-}
-
-#p2
-{ 
-font-weight: bold; 
-}
-#p3
-{
-
-margin-top: 10px;
-
-}
-
-</style>
-
-
-<div class="row well">
-	<br />
-	<div id = "" class="col-md-6 ">
-				<textarea id="blabla" name="InputMessage" id="InputMessage" class="form-control" placeholder="Enter Comment"></textarea>
-	</div>
-<div id = "" class="col-md-6">
-		<div class="form-group">
-			<div class="input-group">
-				<div class="col-md-12 text-center">
-            			<span class="btn-group" style="float:right;">
-                				<a id="pt1" data-toggle="dropdown" class="btn btn-info allicon">Comment</a>
-				</span>
-			</div>
-		</div>
-<br>
-<br>	
-</div>
-</div>
-<div class="row">
-<div id = "" class="col-md-12">
-<div id= "comments_section">
-<ul id="list">
-  <li> <p2 id= "p2">Noa Cohen, 22, Jerusalem</p2> <br> <img id="userpic" src ="{{ STATIC_URL }}img/userpic.png" width="45" > No one can expect Israel to negotiate with a terrorist organisation firing rockets constantly at Israeli citizens. Hamas needs to be stopped. </li>
-<br>
-  <li><p2 id= "p2" >Ahmed Jabr, 17, Bethlehem</p2> <br><img id="userpic" src ="{{ STATIC_URL }}img/userpic.png" width="45" >The government needs to listen to the voices of civil society in Israel calling for an end to the massacres in Gaza and an immediate end to the siege on Gaza.
-    <ul id="list2">
-    <li><div id = "p3"><p2 id= "p2">Daniel Zuckerman, 16, Tel-Aviv
-</p2> <br><img id="userpic" src ="{{ STATIC_URL }}img/userpic.png" width="45" >The only reason there is a siege on Gaza is because the second we release it they will smuggle more weapons and rockets in order to kill us.</div></li>
-      </ul>
-    </li>
-<br>
-<li><p2 id= "p2">Hanin Saed, 18, Jerusalem</p2> <br><img id="userpic" src ="{{ STATIC_URL }}img/userpic.png" width="45" >The Palestinian nation has been oppressed for 66 years. The Hamas is wrong, I don’t agree with it. But it is not justified to kill so many innocents.</li>
-    </ul>
-  </li>
-  
-</ul>
-</div>
-</div>
-</div>
-</div>
-
-
-
-
-
-
-
-
-
-
+<html>
 <div class="container">
     <div class="row">
         <div class="well">
@@ -142,7 +13,15 @@ margin-top: 10px;
                     <div class="col-md-6">
                         <h4 class="list-group-item-heading">Blog Title</h4>
                         <p class="list-group-item-text">
-                            
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec sem molestie, tempor libero eu, placerat purus. 
+                            Donec eget iaculis elit. Nam eget consectetur quam. Nam viverra ornare diam. In a ornare diam. 
+                            Quisque vestibulum nulla nec facilisis malesuada. 
+                            Proin at lobortis risus. Vivamus tristique eros vel cursus malesuada. 
+                            Vivamus volutpat, sem nec venenatis iaculis, metus felis interdum mi, et venenatis felis mi at eros. 
+                            Phasellus vel massa nisi. Fusce ut vehicula nunc. Nullam egestas eros risus, eu fringilla odio lacinia ac. 
+                            Fusce placerat a dolor et tincidunt. 
+                            Pellentesque tristique nunc et nibh scelerisque euismod. 
+                            Sed tristique arcu sit amet nulla auctor ultricies.
                         </p>
                     </div>
                     <div class="col-md-3 text-center">
@@ -166,7 +45,15 @@ margin-top: 10px;
                     <div class="col-md-6">
                         <h4 class="list-group-item-heading">Blog Title</h4>
                         <p class="list-group-item-text">
-                          
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec sem molestie, tempor libero eu, placerat purus. 
+                            Donec eget iaculis elit. Nam eget consectetur quam. Nam viverra ornare diam. In a ornare diam. 
+                            Quisque vestibulum nulla nec facilisis malesuada. 
+                            Proin at lobortis risus. Vivamus tristique eros vel cursus malesuada. 
+                            Vivamus volutpat, sem nec venenatis iaculis, metus felis interdum mi, et venenatis felis mi at eros. 
+                            Phasellus vel massa nisi. Fusce ut vehicula nunc. Nullam egestas eros risus, eu fringilla odio lacinia ac. 
+                            Fusce placerat a dolor et tincidunt. 
+                            Pellentesque tristique nunc et nibh scelerisque euismod. 
+                            Sed tristique arcu sit amet nulla auctor ultricies.
                         </p>
                     </div>
                     <div class="col-md-3 text-center">
@@ -190,7 +77,15 @@ margin-top: 10px;
                     <div class="col-md-6">
                         <h4 class="list-group-item-heading">Blog Title </h4>
                         <p class="list-group-item-text">
-                         
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec sem molestie, tempor libero eu, placerat purus. 
+                            Donec eget iaculis elit. Nam eget consectetur quam. Nam viverra ornare diam. In a ornare diam. 
+                            Quisque vestibulum nulla nec facilisis malesuada. 
+                            Proin at lobortis risus. Vivamus tristique eros vel cursus malesuada. 
+                            Vivamus volutpat, sem nec venenatis iaculis, metus felis interdum mi, et venenatis felis mi at eros. 
+                            Phasellus vel massa nisi. Fusce ut vehicula nunc. Nullam egestas eros risus, eu fringilla odio lacinia ac. 
+                            Fusce placerat a dolor et tincidunt. 
+                            Pellentesque tristique nunc et nibh scelerisque euismod. 
+                            Sed tristique arcu sit amet nulla auctor ultricies.
                         </p>
                     </div>
                     <div class="col-md-3 text-center">
@@ -209,6 +104,7 @@ margin-top: 10px;
         </div>
     </div>
 </div>
+</html>
 
 <style>
 .blogicon {
@@ -271,36 +167,5 @@ a.list-group-item {
         });
     });
 </script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-{% endblock %}
-
-
-
-
-
-
 
 
