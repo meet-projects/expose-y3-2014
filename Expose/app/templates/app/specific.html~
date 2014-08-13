@@ -63,7 +63,17 @@ list-style-type: none;
 {
 list-style-type: none;
 }
-p2.thick {font-weight:bold;}
+
+#p2
+{ 
+font-weight: bold; 
+}
+#p3
+{
+
+margin-top: 10px;
+
+}
 
 </style>
 
@@ -89,17 +99,17 @@ p2.thick {font-weight:bold;}
 <div class="row">
 <div id = "" class="col-md-12">
 <div id= "comments_section">
-<h4>comments</h4>
 <ul id="list">
-  <li> <p2>person1</p2> <br> <img id="userpic" src ="{{ STATIC_URL }}img/userpic.png" width="45" > comment 1</li>
+  <li> <p2 id= "p2">Noa Cohen, 22, Jerusalem</p2> <br> <img id="userpic" src ="{{ STATIC_URL }}img/userpic.png" width="45" > No one can expect Israel to negotiate with a terrorist organisation firing rockets constantly at Israeli citizens. Hamas needs to be stopped. </li>
 <br>
-  <li><p2>person2</p2> <br><img id="userpic" src ="{{ STATIC_URL }}img/userpic.png" width="45" >comment 2
+  <li><p2 id= "p2" >Ahmed Jabr, 17, Bethlehem</p2> <br><img id="userpic" src ="{{ STATIC_URL }}img/userpic.png" width="45" >The government needs to listen to the voices of civil society in Israel calling for an end to the massacres in Gaza and an immediate end to the siege on Gaza.
     <ul id="list2">
-    <li><p2>person3</p2> <br><img id="userpic" src ="{{ STATIC_URL }}img/userpic.png" width="45" >reply to comment 2</li>
+    <li><div id = "p3"><p2 id= "p2">Daniel Zuckerman, 16, Tel-Aviv
+</p2> <br><img id="userpic" src ="{{ STATIC_URL }}img/userpic.png" width="45" >The only reason there is a siege on Gaza is because the second we release it they will smuggle more weapons and rockets in order to kill us.</div></li>
       </ul>
     </li>
 <br>
-<li><p2>person4</p2> <br><img id="userpic" src ="{{ STATIC_URL }}img/userpic.png" width="45" >comment 3</li>
+<li><p2 id= "p2">Hanin Saed, 18, Jerusalem</p2> <br><img id="userpic" src ="{{ STATIC_URL }}img/userpic.png" width="45" ></li>
     </ul>
   </li>
   

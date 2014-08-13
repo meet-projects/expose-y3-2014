@@ -10,16 +10,25 @@
 {% block content %}
       <div class="jumbotron" >
 	<img src="{{ STATIC_URL }}/img/logo1.png">
+<<<<<<< HEAD
 		<br>
         <p>Welcome to Expose. <br> This website is built on people’s opinions, which shows two articles from two different perspectives: Israeli and Palestinian, and gives people a stage to debate.</p>
+=======
+		<br><p> <p>
+        <p>Welcome to Expose. <br> This website is built on people’s opinions, which shows two articles aboutthe same event from two different perspectives: Israeli and Palestinian, and gives people a stage to debate.</p>
+>>>>>>> 38d58845b38cda94261be69dd31c928173348232
         <!--<p><a href="#" class="btn btn-primary btn-lg" role="button">Learn more &raquo;</a></p> -->
       </div>
 	
 
 
 
+<<<<<<< HEAD
 <div id = "hottest"><h1>Hottest Articles</h1><p>10th of August 2014
 Prime minister Benjamin Netanyahu said :'Israel will not go into negotiations while there's no cease-fire'</p></div>
+=======
+<div id = "hottest"><h1>Hottest Articles</h1><p>Here you can check out our most recent and popular updates</p></div>
+>>>>>>> 38d58845b38cda94261be69dd31c928173348232
 
 
  <div id="carousel-example-generic" class="carousel slide main_carousel" data-ride="carousel">
