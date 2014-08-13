@@ -46,6 +46,7 @@ padding-top:0%;
 
 #linktext3 {
     text-decoration:none;
+    margin-top:50px
 }
 
 
@@ -59,9 +60,14 @@ padding-top:0%;
 
 
 }
+#img1 {
+    margin-top:0px;
+}
 
-
+#img3 {
+    margin-top:0px;
+}
 .picpic {
 
-    margin-right:5px
+    margin-right:5px;
 }

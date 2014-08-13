@@ -59,8 +59,17 @@ padding-top:0%;
 
 
 }
+#img1 {
+    margin-top:0px;
+}
 
+#img2 {
+    margin-top:5px;
+}
 
+#img3 {
+    margin-top:0px;
+}
 .picpic {
 
     margin-right:5px;
