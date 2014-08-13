@@ -27,10 +27,14 @@ background-color:#eee;
 
 #adtext {
     color:black;
-    margin-left: 35%;
+    margin-left: 35%;t
     margin-top:10%;
 }
 
+
+#aboutlink {
+    margin-top:15px;
+}
 
 
 #adbox {
@@ -41,3 +45,9 @@ background-color:#eee;
    background-color:#F8F8F8;
    outline: #000000 dashed;
 }
+
+
+.funbun {
+   margin-top:47%
+
+};

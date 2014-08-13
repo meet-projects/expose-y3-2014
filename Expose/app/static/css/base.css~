@@ -42,3 +42,26 @@ padding-top:0%;
 #linktext2 {
     text-decoration:none;
 }
+
+
+#linktext3 {
+    text-decoration:none;
+}
+
+
+#linktext4 {
+    text-decoration:none;
+}
+
+#profilepics {
+    margin-top:30px;
+    width:150%;
+
+
+}
+
+
+.picpic {
+
+    margin-right:5px
+}

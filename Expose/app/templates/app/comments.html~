@@ -1,0 +1,164 @@
+{% extends "app/base.html" %}
+
+
+
+{% block content %}
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-6">
+			<div class="article1">
+				<a id = "linktext4" href = "http://www.israelhayom.com/site/newsletter_article.php?id=19359">
+					<div class="thumbnail">
+						<img id="img1" src="{{ STATIC_URL }}img/logo_new_eng.png" alt="">
+						<img id="img3" src ="{{ STATIC_URL }}img/140766563251130065a_b.jpg" alt= "">
+    		            				<div id="hi" class="caption">
+        	            					<h4 class="text-center">Netanyahu: Gaza operation will take time and patience</h4>
+        	            					<p>
+			Hamas threatens to quit cease-fire talks unless Israeli negotiators, who left talks on Friday, return to Cairo • Prime Minister Benjamin Netanyahu reiterates: Israel will not negotiate under fire, operation will continue until quiet is restored.
+        	            					</p>
+								<p class="text-center"></p>
+        	        				</div>
+					</div>
+        	     		</a>
+			</div>
+		</div>
+		<div class="col-md-6">
+			<div class="article2">
+				<a id = "linktext3" href = "http://www.maannews.net/eng/ViewDetails.aspx?ID=719547">
+					<div class="thumbnail">
+        	        			<img id="img2"src="{{ STATIC_URL }}img/title783911756.png" alt="">
+						<img id="img4" src = "{{ STATIC_URL }}img/292028_345x230.jpg" alt= "">
+        	        			<div id="hi"class="caption">
+        	            				<h4 class="text-center">Netanyahu: Israel 'will not negotiate under fire'</h4>
+        	            					<p>TEL AVIV (AFP) -- Israel will not return to talks to end the conflict in Gaza while Palestinian militants continue cross-border rocket attacks, Prime Minister Benjamin Netanyahu said Sunday.
+"Israel will not engage in negotiations under fire, and will continue to act in every way to change the current reality and to bring quiet to all of its citizens," he told a cabinet meeting at the defense ministry in Tel Aviv, his office said.
+								</p>
+
+        	            					<p class="text-center"></p>
+        	        			</div>
+					</div>
+        	     		</a>
+        	    	</div>
+        	</div>        
+    	</div>
+<!-- End container -->
+<style>   
+.thumbnail {
+    position: relative;
+    padding: 0px;
+    margin-bottom: 20px;
+}
+
+.thumbnail:hover {
+    background-color:#CEE3F6;
+}
+
+#list
+{
+list-style-type: none;
+}
+
+#list2
+{
+list-style-type: none;
+}
+
+#p2
+{ 
+font-weight: bold; 
+}
+#p3
+{
+
+margin-top: 10px;
+
+}
+
+</style>
+
+
+<div class="row well">
+	<br />
+	<div id = "" class="col-md-6 ">
+				<textarea id="blabla" name="InputMessage" id="InputMessage" class="form-control" placeholder="Enter Comment"></textarea>
+	</div>
+<div id = "" class="col-md-6">
+		<div class="form-group">
+			<div class="input-group">
+				<div class="col-md-12 text-center">
+            			<span class="btn-group" style="float:right;">
+                				<a id="pt1" data-toggle="dropdown" class="btn btn-info allicon" href="comments">Comment</a>
+				</span>
+			</div>
+		</div>
+<br>
+<br>	
+</div>
+</div>
+<div class="row">
+<div id = "" class="col-md-12">
+<div id= "comments_section">
+<ul id="list">
+
+
+<li><p2 id= "p2">Haitham Slaibi, 17, Jerusalem</p2> <br><img id="userpic" src ="{{ STATIC_URL }}img/userpic.png" width="45" >If you want to have peace we should stop the wars and talk together.<br>
+<!-- LikeBtn.com BEGIN -->
+<span class="likebtn-wrapper" data-lang="en"></span>
+<script type="text/javascript" src="//w.likebtn.com/js/w/widget.js" async="async"></script>
+<!-- LikeBtn.com END --></li><br>
+  
+<li> <p2 id= "p2">Noa Cohen, 22, Jerusalem</p2> <br> <img id="userpic" src ="{{ STATIC_URL }}img/userpic.png" width="45" > No one can expect Israel to negotiate with a terrorist organisation firing rockets constantly at Israeli citizens. Hamas needs to be stopped. </li>
+<!-- LikeBtn.com BEGIN -->
+<span class="likebtn-wrapper" data-lang="en"></span>
+<script type="text/javascript" src="//w.likebtn.com/js/w/widget.js" async="async"></script>
+<!-- LikeBtn.com END --> <br>
+  <li><p2 id= "p2" >Ahmed Jabr, 17, Bethlehem</p2> <br><img id="userpic" src ="{{ STATIC_URL }}img/userpic.png" width="45" >The government needs to listen to the voices of civil society in Israel calling for an end to the massacres in Gaza and an immediate end to the siege on Gaza.
+<!-- LikeBtn.com BEGIN -->
+<span class="likebtn-wrapper" data-lang="en"></span>
+<script type="text/javascript" src="//w.likebtn.com/js/w/widget.js" async="async"></script>
+<!-- LikeBtn.com END --><br>
+    <ul id="list2">
+    <li><div id = "p3"><p2 id= "p2">Daniel Zuckerman, 16, Tel-Aviv
+</p2> <br><img id="userpic" src ="{{ STATIC_URL }}img/userpic.png" width="45" >The only reason there is a siege on Gaza is because the second we release it they will smuggle more weapons and rockets in order to kill us.<br>
+<!-- LikeBtn.com BEGIN -->
+<span class="likebtn-wrapper" data-lang="en"></span>
+<script type="text/javascript" src="//w.likebtn.com/js/w/widget.js" async="async"></script>
+<!-- LikeBtn.com END --></div></li><br>
+      </ul>
+    </li>
+<li><p2 id= "p2">Hanin Saed, 18, Jerusalem</p2> <br><img id="userpic" src ="{{ STATIC_URL }}img/userpic.png" width="45" >The Palestinian nation has been oppressed for 66 years. The Hamas is wrong, I don’t agree with it. But it is not justified to kill so many innocents.<br>
+<!-- LikeBtn.com BEGIN -->
+<span class="likebtn-wrapper" data-lang="en"></span>
+<script type="text/javascript" src="//w.likebtn.com/js/w/widget.js" async="async"></script>
+<!-- LikeBtn.com END --></li>
+
+    </ul>
+  </li>
+
+  
+</ul>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+{% endblock %}
+
+
+
+
+
+
+
+

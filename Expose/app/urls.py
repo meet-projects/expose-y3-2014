@@ -14,6 +14,7 @@ urlpatterns = patterns('',
     url(r'welcome$', views.welcome, name= 'welcome'),
     url(r'specific2$', views.specific2, name= 'specific2'),
     url(r'thanks$', views.thanks, name= 'thanks'),
+    url(r'comments$', views.comments, name= 'comments'),
 )
 
 

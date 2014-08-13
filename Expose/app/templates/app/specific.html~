@@ -88,7 +88,7 @@ margin-top: 10px;
 			<div class="input-group">
 				<div class="col-md-12 text-center">
             			<span class="btn-group" style="float:right;">
-                				<a id="pt1" data-toggle="dropdown" class="btn btn-info allicon">Comment</a>
+                				<a type="button" id="pt1" class="btn btn-info allicon" href="comments">Comment</a>
 				</span>
 			</div>
 		</div>
@@ -107,16 +107,20 @@ margin-top: 10px;
 <script type="text/javascript" src="//w.likebtn.com/js/w/widget.js" async="async"></script>
 <!-- LikeBtn.com END -->
 
+<<<<<<< HEAD
 <FORM METHOD="LINK" ACTION="specific.html">
 <INPUT TYPE="submit" VALUE="reply">
 </FORM>
   <li><p2 id= "p2" >Ahmed Jabr, 17, Bethlehem</p2> <br><img id="userpic" src ="{{ STATIC_URL }}img/userpic.png" width="45" >The government needs to listen to the voices of civil society in Israel calling for an end to the massacres in Gaza and an immediate end to the siege on Gaza.
+=======
+  <li><br><p2 id= "p2" >Ahmed Jabr, 17, Bethlehem</p2> <br><img id="userpic" src ="{{ STATIC_URL }}img/userpic.png" width="45" >The government needs to listen to the voices of civil society in Israel calling for an end to the massacres in Gaza and an immediate end to the siege on Gaza.
+>>>>>>> 721a945d6fdb92a6e19ba40c6850a02269db4b49
 <!-- LikeBtn.com BEGIN -->
 <span class="likebtn-wrapper" data-lang="en"></span>
 <script type="text/javascript" src="//w.likebtn.com/js/w/widget.js" async="async"></script>
 <!-- LikeBtn.com END -->
     <ul id="list2">
-    <li><div id = "p3"><p2 id= "p2">Daniel Zuckerman, 16, Tel-Aviv
+    <li><br><div id = "p3"><p2 id= "p2">Daniel Zuckerman, 16, Tel-Aviv
 </p2> <br><img id="userpic" src ="{{ STATIC_URL }}img/userpic.png" width="45" >The only reason there is a siege on Gaza is because the second we release it they will smuggle more weapons and rockets in order to kill us.<br>
 <!-- LikeBtn.com BEGIN -->
 <span class="likebtn-wrapper" data-lang="en"></span>

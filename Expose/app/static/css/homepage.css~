@@ -32,12 +32,22 @@ background-color:#eee;
 }
 
 
+#aboutlink {
+    margin-top:15px;
+}
+
 
 #adbox {
    margin-left:20%;
    margin-top:10%;
    height: 60%;
    width: 60%;
-   background-color:#F0F0F0;
+   background-color:#F8F8F8;
    outline: #000000 dashed;
 }
+
+
+.funbun {
+   margin-top:47%
+
+};
