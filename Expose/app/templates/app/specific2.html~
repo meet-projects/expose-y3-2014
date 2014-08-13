@@ -66,6 +66,10 @@ list-style-type: none;
 {
 list-style-type: none;
 }
+#p1
+{
+font-size:80%;
+}
 
 #p2
 { 
@@ -104,15 +108,34 @@ margin-top: 10px;
 <div id = "" class="col-md-12">
 <div id= "comments_section">
 <ul id="list">
-  <li> <p2 id= "p2">person1</p2> <br> <img id="userpic" src ="{{ STATIC_URL }}img/userpic.png" width="45" > comment 1</li>
+  <li> <p2 id= "p2">Saleh Jabareen, 19, Ramallah
+</p2> <br> <img id="userpic" src ="{{ STATIC_URL }}img/userpic.png" width="45" >The soldier is dead anyway, and this way Palestine can get back its prisoners.
 <br>
-  <li><p2 id= "p2" >person2</p2> <br><img id="userpic" src ="{{ STATIC_URL }}img/userpic.png" width="45" >comment 2
+<!-- LikeBtn.com BEGIN -->
+<span class="likebtn-wrapper" data-lang="en"></span>
+<script type="text/javascript" src="//w.likebtn.com/js/w/widget.js" async="async"></script>
+<!-- LikeBtn.com END -->
+
+</li>
+<br>
+  <li><p2 id= "p2" >Shmulik Goldstein, 25, Eilat
+</p2> <br><img id="userpic" src ="{{ STATIC_URL }}img/userpic.png" width="45" >We have to bring the body back at all costs, so that the family can have a respectable funeral.
+<br>
+<!-- LikeBtn.com BEGIN -->
+<span class="likebtn-wrapper" data-lang="en"></span>
+<script type="text/javascript" src="//w.likebtn.com/js/w/widget.js" async="async"></script>
+<!-- LikeBtn.com END -->
+
     <ul id="list2">
-    <li><div id = "p3"><p2 id= "p2">person3</p2> <br><img id="userpic" src ="{{ STATIC_URL }}img/userpic.png" width="45" >reply to comment 2</div></li>
+    <li><div id = "p3"><p2 id= "p2">Dana Levi, 20, Be’er Sheva
+</p2> <br><img id="userpic" src ="{{ STATIC_URL }}img/userpic.png" width="45" >Do you really think it is justified to release murderers for a dead soldiers body?! Do you want more Israelis to be dead?
+</div></li>
       </ul>
     </li>
 <br>
-<li><p2 id= "p2">person4</p2> <br><img id="userpic" src ="{{ STATIC_URL }}img/userpic.png" width="45" >comment 3</li>
+<li><p2 id= "p2">Ammar Hussaini, 17, Beit Hanina 
+</p2> <br><img id="userpic" src ="{{ STATIC_URL }}img/userpic.png" width="45" >Why would Hamas take a dead body? Israel won’t release any prisoners for a soldier that is already dead. This is all lies.
+</li>
     </ul>
   </li>
   
