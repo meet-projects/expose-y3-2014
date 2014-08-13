@@ -56,6 +56,28 @@
 .thumbnail:hover {
     background-color:#CEE3F6;
 }
+
+#list
+{
+list-style-type: none;
+}
+
+#list2
+{
+list-style-type: none;
+}
+
+#p2
+{ 
+font-weight: bold; 
+}
+#p3
+{
+
+margin-top: 10px;
+
+}
+
 </style>
 
 
@@ -100,28 +122,7 @@
 </div>
 </div>
 
-<style>
-#list
-{
-list-style-type: none;
-}
 
-#list2
-{
-list-style-type: none;
-}
 
-#p2
-{ 
-font-weight: bold; 
-}
-#p3
-{
-
-margin-top: 10px;
-
-}
-
-</style>
 
 {% endblock %}
