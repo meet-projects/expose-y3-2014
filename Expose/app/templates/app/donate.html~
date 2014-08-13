@@ -24,6 +24,10 @@
     </script>
 </head> 
 !-->
+
+{% extends "app/base.html" %}
+{% block content %}
+
 <body>
 	<div class="container">
   <form class="form-horizontal" role="form">
@@ -96,5 +100,6 @@
 </div>	<script type="text/javascript">
 		</script>
 </body>
-</html>
+<!--</html> !-->
+{% endblock %}
 
