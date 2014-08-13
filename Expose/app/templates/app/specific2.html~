@@ -11,7 +11,7 @@
 				<a id = "linktext4" href = "http://www.maannews.net/eng/ViewDetails.aspx?ID=719790">
 					<div class="thumbnail">
 						<img id="img1" src="{{ STATIC_URL }}img/title783911756.png" alt="">
-						<img id="img3" src ="{{ STATIC_URL }}img/65118_345x230.jpg" alt= "" width="345px" height="225px">
+						<img id="img3" src ="{{ STATIC_URL }}img/65118_345x230.jpg" alt= "" width="345px" height="194px">
     		            				<div id="hi" class="caption">
         	            					<h4 class="text-center">Report: Israel defense minister says Hamas has soldier's body</h4>
                     <p>BETHLEHEM (Ma'an) -- Israeli Defense Minister Moshe Yaalon said Sunday that the body of missing soldier Oron Shaul is "obviously" in the hands of Hamas, Israeli media reported.
@@ -113,6 +113,10 @@ margin-top: 10px;
 <br>
 <!-- LikeBtn.com BEGIN -->
 <span class="likebtn-wrapper" data-lang="en"></span>
+  <span  class="likebtn-wrapper lb-loaded lb-style-white lb-popup-position-top lb-popup-style-light">
+    <button id="toz" type="button" class="likebtn-button lb-like">Reply</button>
+  </span>
+
 <script type="text/javascript" src="//w.likebtn.com/js/w/widget.js" async="async"></script>
 <!-- LikeBtn.com END -->
 
@@ -123,6 +127,10 @@ margin-top: 10px;
 <br>
 <!-- LikeBtn.com BEGIN -->
 <span class="likebtn-wrapper" data-lang="en"></span>
+  <span  class="likebtn-wrapper lb-loaded lb-style-white lb-popup-position-top lb-popup-style-light">
+    <button id="toz" type="button" class="likebtn-button lb-like">Reply</button>
+  </span>
+
 <script type="text/javascript" src="//w.likebtn.com/js/w/widget.js" async="async"></script>
 <!-- LikeBtn.com END -->
 
@@ -132,6 +140,10 @@ margin-top: 10px;
 <br>
 <!-- LikeBtn.com BEGIN -->
 <span class="likebtn-wrapper" data-lang="en"></span>
+  <span  class="likebtn-wrapper lb-loaded lb-style-white lb-popup-position-top lb-popup-style-light">
+    <button id="toz" type="button" class="likebtn-button lb-like">Reply</button>
+  </span>
+
 <script type="text/javascript" src="//w.likebtn.com/js/w/widget.js" async="async"></script>
 <!-- LikeBtn.com END -->
 </div></li>
@@ -143,6 +155,10 @@ margin-top: 10px;
 <br>
 <!-- LikeBtn.com BEGIN -->
 <span class="likebtn-wrapper" data-lang="en"></span>
+  <span  class="likebtn-wrapper lb-loaded lb-style-white lb-popup-position-top lb-popup-style-light">
+    <button id="toz" type="button" class="likebtn-button lb-like">Reply</button>
+  </span>
+
 <script type="text/javascript" src="//w.likebtn.com/js/w/widget.js" async="async"></script>
 <!-- LikeBtn.com END -->
 </li>
