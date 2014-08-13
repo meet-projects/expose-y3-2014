@@ -1,14 +1,15 @@
 .main_carousel {
     width:70%;
-       float:right;
+       float:left;
 }
 
 
 #hottest {
-    float: left;
+    float: right;
     width:15%;
     height: 469px;
-    width: 30%;
+    width: 28%;
+    margin-left: 5px;
 background-color:#eee;
 
 }
@@ -18,5 +19,25 @@ background-color:#eee;
  }
 
 .text12 {
+    margin-top:15%;
     margin-left:10px;
+}
+
+
+
+#adtext {
+    color:black;
+    margin-left: 35%;
+    margin-top:10%;
+}
+
+
+
+#adbox {
+   margin-left:20%;
+   margin-top:10%;
+   height: 60%;
+   width: 60%;
+   background-color:#F8F8F8;
+   outline: #000000 dashed;
 }
