@@ -16,12 +16,10 @@
         <!--<p><a href="#" class="btn btn-primary btn-lg" role="button">Learn more &raquo;</a></p> -->
       </div>
 	
-<!--<p class = "text12">10th of August 2014
-Prime minister Benjamin Netanyahu said :'Israel will not go into negotiations while there's no cease-fire'<br><br>
-Israeli Defense Minister Moshe Yaalon claims that Hamas has an Israeli soldiers body, and the Israeli authorities suspect that another soldier's body is also held by the Hamas.</p>-->
 
 
-<div id = "hottest"><h1 class = "text12">Your ads go here!</h1>
+
+<div id = "hottest"><h3 class = "text12">"Money is not the most important thing in the world. Love is. Fortunately, I love money." - Jackie Mason</h3>
   <div id = "adbox" > 
      <div id = "adtext">
 	<h1><br><br><br>AD</h1>
@@ -65,14 +63,14 @@ Israeli Defense Minister Moshe Yaalon claims that Hamas has an Israeli soldiers 
 </div>
 
       <!-- Main jumbotron for a primary marketing message or call to action -->
-      <div class="jumbotron descrip funbun">
+      <div class="jumbotron descrip">
         <p>We differentiate ourselves from competing websites like online newspapers by  the fact that our two focuses are providing the Palestinian and Israeli perspectives on a specific subject, and supplying a discussion between the different users about the subject. Therefore our website puts an emphasis on exposing the customers to Israeli and Palestinian perspectives via articles and discussions.</p>
 	<h1></h1>
  <p> See more articles
       <div>  <a href="articles" class="btn btn-primary btn-lg" role="button"> Articles &raquo;</a> </p>
-        <p> Find out more about us
-
-       <br><a id = "aboutlink" href="about" class="btn btn-primary btn-lg" role="button"> About &raquo;</a> </p>
+        <p id = "fanorfun"> Find out more about us
+	
+       <br><a href="about" class="btn btn-primary btn-lg" role="button"> About &raquo;</a> </p>
       </div>
 <style>
 .jumbotron descrip{
@@ -83,5 +81,4 @@ Israeli Defense Minister Moshe Yaalon claims that Hamas has an Israeli soldiers 
 
 
 {% endblock %}
-
 
