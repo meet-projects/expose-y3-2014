@@ -11,7 +11,7 @@
 				<a id = "linktext4" href = "http://www.maannews.net/eng/ViewDetails.aspx?ID=719790">
 					<div class="thumbnail">
 						<img id="img1" src="{{ STATIC_URL }}img/title783911756.png" alt="">
-						<img id="img3" src ="{{ STATIC_URL }}img/65118_345x230.jpg" alt= "">
+						<img id="img3" src ="{{ STATIC_URL }}img/65118_345x230.jpg" alt= "" width="345px" height="225px">
     		            				<div id="hi" class="caption">
         	            					<h4 class="text-center">Report: Israel defense minister says Hamas has soldier's body</h4>
                     <p>BETHLEHEM (Ma'an) -- Israeli Defense Minister Moshe Yaalon said Sunday that the body of missing soldier Oron Shaul is "obviously" in the hands of Hamas, Israeli media reported.
@@ -30,7 +30,7 @@
 					<div class="thumbnail">
         	        			<img id="img2"src="{{ STATIC_URL }}img/ynet-logo.jpg" width="220px">
 <br>
-						<img id="img4" src = "{{ STATIC_URL }}img/551548501001494640360no.jpg" width="345px" height="225px">
+						<img id="img4" src = "{{ STATIC_URL }}img/551548501001494640360no.jpg" width="345px" height="250px">
         	        			<div id="hi"class="caption">
         	            				<h4 class="text-center">Ya'alon tells family: Oron Shaul's body is in Hamas' hands</h4>
                     <p>"It's obvious to us that Oron's body is in the hands of Hamas, and we're making every effort to retrieve it," Ya'alon said, noting the efforts were on the diplomatic level - meaning in ceasefire talks with Hamas. 
@@ -129,12 +129,22 @@ margin-top: 10px;
     <ul id="list2">
     <li><div id = "p3"><p2 id= "p2">Dana Levi, 20, Be’er Sheva
 </p2> <br><img id="userpic" src ="{{ STATIC_URL }}img/userpic.png" width="45" >Do you really think it is justified to release murderers for a dead soldiers body?! Do you want more Israelis to be dead?
+<br>
+<!-- LikeBtn.com BEGIN -->
+<span class="likebtn-wrapper" data-lang="en"></span>
+<script type="text/javascript" src="//w.likebtn.com/js/w/widget.js" async="async"></script>
+<!-- LikeBtn.com END -->
 </div></li>
       </ul>
     </li>
 <br>
 <li><p2 id= "p2">Ammar Hussaini, 17, Beit Hanina 
 </p2> <br><img id="userpic" src ="{{ STATIC_URL }}img/userpic.png" width="45" >Why would Hamas take a dead body? Israel won’t release any prisoners for a soldier that is already dead. This is all lies.
+<br>
+<!-- LikeBtn.com BEGIN -->
+<span class="likebtn-wrapper" data-lang="en"></span>
+<script type="text/javascript" src="//w.likebtn.com/js/w/widget.js" async="async"></script>
+<!-- LikeBtn.com END -->
 </li>
     </ul>
   </li>

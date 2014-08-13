@@ -10,12 +10,17 @@
 			<div class="article1">
 				<a id = "linktext4" href = "http://www.israelhayom.com/site/newsletter_article.php?id=19359">
 					<div class="thumbnail">
+						<br>
 						<img id="img1" src="{{ STATIC_URL }}img/logo_new_eng.png" alt="">
-						<img id="img3" src ="{{ STATIC_URL }}img/140766563251130065a_b.jpg" alt= "">
+						<img id="img3" src ="{{ STATIC_URL }}img/140766563251130065a_b.jpg" alt= "" width = 320 height = 470>
     		            				<div id="hi" class="caption">
         	            					<h4 class="text-center">Netanyahu: Gaza operation will take time and patience</h4>
-        	            					<p>
+        	            					<p id = "netan">
 			Hamas threatens to quit cease-fire talks unless Israeli negotiators, who left talks on Friday, return to Cairo • Prime Minister Benjamin Netanyahu reiterates: Israel will not negotiate under fire, operation will continue until quiet is restored.
+<br>
+<br>
+<br>
+<br>
         	            					</p>
 								<p class="text-center"></p>
         	        				</div>
@@ -28,7 +33,7 @@
 				<a id = "linktext3" href = "http://www.maannews.net/eng/ViewDetails.aspx?ID=719547">
 					<div class="thumbnail">
         	        			<img id="img2"src="{{ STATIC_URL }}img/title783911756.png" alt="">
-						<img id="img4" src = "{{ STATIC_URL }}img/292028_345x230.jpg" alt= "">
+						<img id="img4" src = "{{ STATIC_URL }}img/292028_345x230.jpg" alt= "" width = 320 height = 470>
         	        			<div id="hi"class="caption">
         	            				<h4 class="text-center">Netanyahu: Israel 'will not negotiate under fire'</h4>
         	            					<p>TEL AVIV (AFP) -- Israel will not return to talks to end the conflict in Gaza while Palestinian militants continue cross-border rocket attacks, Prime Minister Benjamin Netanyahu said Sunday.
@@ -108,12 +113,13 @@ margin-top: 10px;
 <!-- LikeBtn.com END -->
 
   <li><br><p2 id= "p2" >Ahmed Jabr, 17, Bethlehem</p2> <br><img id="userpic" src ="{{ STATIC_URL }}img/userpic.png" width="45" >The government needs to listen to the voices of civil society in Israel calling for an end to the massacres in Gaza and an immediate end to the siege on Gaza.
+
 <!-- LikeBtn.com BEGIN -->
 <span class="likebtn-wrapper" data-lang="en"></span>
 <script type="text/javascript" src="//w.likebtn.com/js/w/widget.js" async="async"></script>
 <!-- LikeBtn.com END -->
     <ul id="list2">
-    <li><br><div id = "p3"><p2 id= "p2">Daniel Zuckerman, 16, Tel-Aviv
+    <li><div id = "p3"><p2 id= "p2">Daniel Zuckerman, 16, Tel-Aviv
 </p2> <br><img id="userpic" src ="{{ STATIC_URL }}img/userpic.png" width="45" >The only reason there is a siege on Gaza is because the second we release it they will smuggle more weapons and rockets in order to kill us.<br>
 <!-- LikeBtn.com BEGIN -->
 <span class="likebtn-wrapper" data-lang="en"></span>

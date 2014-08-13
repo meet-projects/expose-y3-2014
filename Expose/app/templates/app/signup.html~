@@ -12,9 +12,12 @@
 
       <form class="form-signin" role="form">
         <h2 class="form-signin-heading">Sign up</h2>
+	<input type="username" class="form-control" placeholder="Username" required="" autofocus="">
         <input type="email" class="form-control" placeholder="Email address" required="" autofocus="">
-        <input type="username" class="form-control" placeholder="Username" required="" autofocus="">
+        
         <input type="password" class="form-control" placeholder="Password" required="">
+	<input type="username" class="form-control" placeholder="Age" required="">
+	<input type="username" class="form-control" placeholder="Location" required="">
         <div class="checkbox">
         </div>
         <a class="btn btn-lg btn-primary btn-block" href="welcome"type="submit">Sign up </a>      </form>
