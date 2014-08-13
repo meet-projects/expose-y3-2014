@@ -1,15 +1,20 @@
 .main_carousel {
     width:70%;
-    float:right;
+       float:right;
 }
 
 
 #hottest {
     float: left;
+    width:15%;
     margin-bottom:550px;
-	margin-top:220px;
+	margin-top:150px;
+    width: 30%;
+    height: 200%;
+background-color:black;
+
 }
 
 .descrip {
-    margin-top:550px;
-}
+    margin-top:550px;	
+ }
