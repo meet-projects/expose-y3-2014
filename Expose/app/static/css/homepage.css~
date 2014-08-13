@@ -9,10 +9,14 @@
     width:15%;
     height: 469px;
     width: 30%;
-background-color:black;
+background-color:#eee;
 
 }
 
 .descrip {
     margin-top:550px;	
  }
+
+#text12 {
+    margin-left:10px;
+}
