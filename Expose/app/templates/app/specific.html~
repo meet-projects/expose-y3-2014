@@ -10,12 +10,17 @@
 			<div class="article1">
 				<a id = "linktext4" href = "http://www.israelhayom.com/site/newsletter_article.php?id=19359">
 					<div class="thumbnail">
+						<br>
 						<img id="img1" src="{{ STATIC_URL }}img/logo_new_eng.png" alt="">
 						<img id="img3" src ="{{ STATIC_URL }}img/140766563251130065a_b.jpg" alt= "" width = 320 height = 470>
     		            				<div id="hi" class="caption">
-        	            					<h4 id = "netan" class="text-center">Netanyahu: Gaza operation will take time and patience</h4>
-        	            					<p>
+        	            					<h4 class="text-center">Netanyahu: Gaza operation will take time and patience</h4>
+        	            					<p id = "netan">
 			Hamas threatens to quit cease-fire talks unless Israeli negotiators, who left talks on Friday, return to Cairo • Prime Minister Benjamin Netanyahu reiterates: Israel will not negotiate under fire, operation will continue until quiet is restored.
+<br>
+<br>
+<br>
+<br>
         	            					</p>
 								<p class="text-center"></p>
         	        				</div>
