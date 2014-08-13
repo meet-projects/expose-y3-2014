@@ -132,6 +132,21 @@ width:130%
 <!-- LikeBtn.com END -->
 </li>
 <br>
+    <ul id="list2">
+    <li><div id = "p3"><p2 id= "p2">Daniel Zuckerman, 16, Tel-Aviv
+</p2> <br><img id="userpic" src ="{{ STATIC_URL }}img/userpic.png" width="45" >The only reason there is a siege on Gaza is because the second we release it they will smuggle more weapons and rockets in order to kill us.<br>
+<!-- LikeBtn.com BEGIN -->
+<span class="likebtn-wrapper" data-lang="en"></span>
+  <span  class="likebtn-wrapper lb-loaded lb-style-white lb-popup-position-top lb-popup-style-light">
+    <button id="toz" type="button" class="likebtn-button lb-like">Reply</button>
+  </span>
+
+<script type="text/javascript" src="//w.likebtn.com/js/w/widget.js" async="async"></script>
+<!-- LikeBtn.com END --></div></li><br>
+      </ul>
+    </li>
+
+
   
 <li> <p2 id= "p2">Noa Cohen, 22, Jerusalem</p2> <br> <img id="userpic" src ="{{ STATIC_URL }}img/userpic.png" width="45" > No one can expect Israel to negotiate with a terrorist organisation firing rockets constantly at Israeli citizens. Hamas needs to be stopped. </li>
 <!-- LikeBtn.com BEGIN -->

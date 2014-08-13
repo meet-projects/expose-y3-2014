@@ -14,6 +14,11 @@ def login(request):
 def thanks(request):
     return render (request,'app/thanks.html')
 
+
+def reply(request):
+    return render (request,'app/reply.html')
+
+
 def comments(request):
     return render (request,'app/comments.html')
 
