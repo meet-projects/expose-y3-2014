@@ -88,7 +88,7 @@ margin-top: 10px;
 			<div class="input-group">
 				<div class="col-md-12 text-center">
             			<span class="btn-group" style="float:right;">
-                				<a type="button" id="pt1" class="btn btn-info allicon" href="comments">Comment</a>
+                				<a id="pt1" data-toggle="dropdown" class="btn btn-info allicon" href="comments">Comment</a>
 				</span>
 			</div>
 		</div>
@@ -126,8 +126,17 @@ margin-top: 10px;
 <span class="likebtn-wrapper" data-lang="en"></span>
 <script type="text/javascript" src="//w.likebtn.com/js/w/widget.js" async="async"></script>
 <!-- LikeBtn.com END --></li>
+
+<br>
+
+<li><p2 id= "p2">Hanin Saed, 18, Jerusalem</p2> <br><img id="userpic" src ="{{ STATIC_URL }}img/userpic.png" width="45" >The Palestinian nation has been oppressed for 66 years. The Hamas is wrong, I don’t agree with it. But it is not justified to kill so many innocents.<br>
+<!-- LikeBtn.com BEGIN -->
+<span class="likebtn-wrapper" data-lang="en"></span>
+<script type="text/javascript" src="//w.likebtn.com/js/w/widget.js" async="async"></script>
+<!-- LikeBtn.com END --></li>
     </ul>
   </li>
+
   
 </ul>
 </div>

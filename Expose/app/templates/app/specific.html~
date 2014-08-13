@@ -88,7 +88,7 @@ margin-top: 10px;
 			<div class="input-group">
 				<div class="col-md-12 text-center">
             			<span class="btn-group" style="float:right;">
-                				<a id="pt1" data-toggle="dropdown" class="btn btn-info allicon">Comment</a>
+                				<a type="button" id="pt1"  data-toggle="dropdown" class="btn btn-info allicon" href="comments">Comment</a>
 				</span>
 			</div>
 		</div>
