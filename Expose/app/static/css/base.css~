@@ -46,6 +46,7 @@ padding-top:0%;
 
 #linktext3 {
     text-decoration:none;
+    margin-top:50px
 }
 
 
@@ -59,7 +60,11 @@ padding-top:0%;
 
 
 }
+#img1 {
+    margin-top:0px;
+}
 
+<<<<<<< HEAD
 #fanorfun {
     margin-bottom:-10px;
 }
@@ -71,6 +76,10 @@ padding-top:0%;
 
 .funfunfun2 {
     margin-bottom:10%;
+=======
+#img3 {
+    margin-top:0px;
+>>>>>>> 618d6c9cc09a74528708ed1b064615a378404142
 }
 .picpic {
 
