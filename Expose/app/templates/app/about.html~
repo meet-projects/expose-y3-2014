@@ -15,11 +15,11 @@
     <div class="container">
 
       <div class="blog-header">
-	<img id ="logopos" src="{{ STATIC_URL }}/img/logo1.png">
+	<img id ="logopos" src="{{ STATIC_URL }}img/logo1.png">
 	<span> 
-	<img id= "adam" src="{{ STATIC_URL }}/img/adam.jpg" width = 100 height = 150>
-	<img id= "natali" src="{{ STATIC_URL }}/img/natali.jpg" width = 100 height = 150>
-	<img id= "haitham" src="{{ STATIC_URL }}/img/haitham.jpg" width = 100 height = 150>
+	<img id= "adam" src="{{ STATIC_URL }}img/about/adam.jpg" width = 100 height = 150>
+	<img id= "natali" src="{{ STATIC_URL }}img/about/natali.jpg" width = 100 height = 150>
+	<img id= “roni” src="{{ STATIC_URL }}img/roni.png” width = 100 height = 150>
 	</span>        
 	<h1 class="blog-title">About</h1>
 	<hr>
