@@ -68,9 +68,9 @@
 	<h1></h1>
  <p> See more articles
       <div>  <a href="articles" class="btn btn-primary btn-lg" role="button"> Articles &raquo;</a> </p>
-        <p id = "fanorfun"> Find out more about us
+        <p id = "fanorfun"> Find out more about us</p>
 	
-       <br><a href="about" class="btn btn-primary btn-lg" role="button"> About &raquo;</a> </p>
+       <br><a href="about" class="btn btn-primary btn-lg" role="button"> About &raquo;</a> 
       </div>
 <style>
 .jumbotron descrip{
