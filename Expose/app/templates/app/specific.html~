@@ -15,7 +15,7 @@
     		            				<div id="hi" class="caption">
         	            					<h4 class="text-center">Netanyahu: Gaza operation will take time and patience</h4>
         	            					<p>
-			Hamas threatens to quit cease-fire talks unless Israeli negotiators, who left talks on Friday, return to Cairo • Prime Minister Benjamin Netanyahu reiterates: Israel will not negotiate under fire, operation will continue until quiet is restored.<br>s
+			Hamas threatens to quit cease-fire talks unless Israeli negotiators, who left talks on Friday, return to Cairo • Prime Minister Benjamin Netanyahu reiterates: Israel will not negotiate under fire, operation will continue until quiet is restored.
         	            					</p>
 								<p class="text-center"></p>
         	        				</div>
@@ -54,6 +54,16 @@
     background-color:#CEE3F6;
 }
 
+#list
+{
+list-style-type: none;
+}
+
+#list2
+{
+list-style-type: none;
+}
+p2.thick {font-weight:bold;}
 
 </style>
 
@@ -72,58 +82,32 @@
 				</span>
 			</div>
 		</div>
-
+<br>
+<br>	
+</div>
+</div>
+<div class="row">
+<div id = "" class="col-md-12">
+<div id= "comments_section">
 <h4>comments</h4>
-<ul>
-  <li> <img id="userpic" src ="{{ STATIC_URL }}img/userpic.png" width="35" > comment 1</li>
-  <li><img id="userpic" src ="{{ STATIC_URL }}img/userpic.png" width="35" >comment 2
-    <ul>
-    <li><img id="userpic" src ="{{ STATIC_URL }}img/userpic.png" width="35" >reply to comment 2</li>
+<ul id="list">
+  <li> <p2>person1</p2> <br> <img id="userpic" src ="{{ STATIC_URL }}img/userpic.png" width="45" > comment 1</li>
+<br>
+  <li><p2>person2</p2> <br><img id="userpic" src ="{{ STATIC_URL }}img/userpic.png" width="45" >comment 2
+    <ul id="list2">
+    <li><p2>person3</p2> <br><img id="userpic" src ="{{ STATIC_URL }}img/userpic.png" width="45" >reply to comment 2</li>
       </ul>
     </li>
-<li><img id="userpic" src ="{{ STATIC_URL }}img/userpic.png" width="35" >comment 3</li>
+<br>
+<li><p2>person4</p2> <br><img id="userpic" src ="{{ STATIC_URL }}img/userpic.png" width="45" >comment 3</li>
     </ul>
   </li>
   
 </ul>
-	</div>
 </div>
 </div>
-<<<<<<< HEAD
-<style>
-#whole{
-margin-top:350px;
-width: 200%;
-height:40%;
-}
-
-
-    #pt1 {
-        width:200px;
-	float:right;
-	margin-left:5px;
-	
-    }
-#id{
-	height:10%;
-	width:50%;
-}
-
-
-
-
-    .bodycolor {
-        background-color: #F0EEEE;
-        min-height: 347px;
-    }
-
-    .allicon {
-        font-size: 27px;                
-    }
-=======
-
->>>>>>> 9eddc4ba83b5b906f4792fb812c8084b30d1dcb9
-
+</div>
+</div>
 
 
 

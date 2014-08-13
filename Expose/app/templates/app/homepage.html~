@@ -1,6 +1,11 @@
 {% extends "app/base.html" %}
 
 
+{% block attach %}
+
+	<link href = "{{ STATIC_URL }}/css/homepage.css" rel = "stylesheet">
+
+{% endblock %}
 
 {% block content %}
       <div class="jumbotron" >
@@ -9,8 +14,14 @@
         <p>Welcome to Expose, <br> This website is built on people’s opinions, which shows two articles from two different perspectives: Israeli and Palestinian, and gives people a stage to debate.</p>
         <!--<p><a href="#" class="btn btn-primary btn-lg" role="button">Learn more &raquo;</a></p> -->
       </div>
+	
 
- <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+
+
+<div id = "hottest"><h1>Hottest Articles</h1></div>
+
+
+ <div id="carousel-example-generic" class="carousel slide main_carousel" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
     <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
