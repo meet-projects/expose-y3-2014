@@ -121,7 +121,11 @@ margin-top: 10px;
       </ul>
     </li>
 <br>
-<li><p2 id= "p2">Hanin Saed, 18, Jerusalem</p2> <br><img id="userpic" src ="{{ STATIC_URL }}img/userpic.png" width="45" >The Palestinian nation has been oppressed for 66 years. The Hamas is wrong, I don’t agree with it. But it is not justified to kill so many innocents.</li>
+<li><p2 id= "p2">Hanin Saed, 18, Jerusalem</p2> <br><img id="userpic" src ="{{ STATIC_URL }}img/userpic.png" width="45" >The Palestinian nation has been oppressed for 66 years. The Hamas is wrong, I don’t agree with it. But it is not justified to kill so many innocents.<br>
+<!-- LikeBtn.com BEGIN -->
+<span class="likebtn-wrapper" data-lang="en"></span>
+<script type="text/javascript" src="//w.likebtn.com/js/w/widget.js" async="async"></script>
+<!-- LikeBtn.com END --></li>
     </ul>
   </li>
   
@@ -130,172 +134,6 @@ margin-top: 10px;
 </div>
 </div>
 </div>
-
-
-
-
-
-
-
-
-
-
-<div class="container">
-    <div class="row">
-        <div class="well">
-            <h1 class="text-center">Today's Blogposts</h1>
-            <div class="list-group">
-                <a href="#" class="list-group-item">
-                    <div class="media col-md-3">
-                        <figure class="pull-left">
-                            <i class="fa fa-cloud-upload blogicon"></i>
-                        </figure>
-                    </div>
-                    <div class="col-md-6">
-                        <h4 class="list-group-item-heading">Blog Title</h4>
-                        <p class="list-group-item-text">
-                            
-                        </p>
-                    </div>
-                    <div class="col-md-3 text-center">
-                        <div class="panel panel-default">
-                            <div class="panel-body">
-                                <div class="ratetext">Rate it</div>
-                                <i class="fa fa-thumbs-o-up votes"></i><i class="fa fa-thumbs-o-down votes"></i>
-                                <div class="stars"></div>
-                                <h2>464  <small>Clicks</small></h2>
-                                <div id="rate1"></div>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-                <a href="#" class="list-group-item">
-                    <div class="media col-md-3">
-                        <figure class="pull-left">
-                            <i class="fa fa-home blogicon"></i>
-                        </figure>
-                    </div>
-                    <div class="col-md-6">
-                        <h4 class="list-group-item-heading">Blog Title</h4>
-                        <p class="list-group-item-text">
-                          
-                        </p>
-                    </div>
-                    <div class="col-md-3 text-center">
-                        <div class="panel panel-default">
-                            <div class="panel-body">
-                                <div class="ratetext">Rate it</div>
-                                <i class="fa fa-thumbs-o-up votes"></i><i class="fa fa-thumbs-o-down votes"></i>
-                                <div class="stars"></div>
-                                <h2>117  <small>Clicks</small></h2>
-                                <div id="rate2"></div>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-                 <a href="#" class="list-group-item">
-                    <div class="media col-md-3">
-                        <figure class="pull-left">
-                            <i class="fa fa-location-arrow blogicon"></i>
-                        </figure>
-                    </div>
-                    <div class="col-md-6">
-                        <h4 class="list-group-item-heading">Blog Title </h4>
-                        <p class="list-group-item-text">
-                         
-                        </p>
-                    </div>
-                    <div class="col-md-3 text-center">
-                        <div class="panel panel-default">
-                            <div class="panel-body">
-                                <div class="ratetext">Rate it</div>
-                                <i class="fa fa-thumbs-o-up votes"></i><i class="fa fa-thumbs-o-down votes"></i>
-                                <div class="stars"></div>
-                                <h2>709  <small>Clicks</small></h2>
-                                <div id="rate3"></div>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-        </div>
-    </div>
-</div>
-
-<style>
-.blogicon {
-    font-size: 217px;
-    color:#5CB85C;
-}
-
-.ratetext {
-    font-size: 37px;
-    text-decoration: underline;
-    padding-bottom: 10px;
-}
-
-.votes {
-    font-size: 47px;
-    padding-right: 20px;
-    color:#197BB5;
-}
-
-a.list-group-item {
-    height: auto;
-    min-height: 250px;
-}
-
-a.list-group-item:hover, a.list-group-item:focus {
-    border-left:10px solid #5CB85C;
-    border-right:10px solid #5CB85C;
-}
-
-a.list-group-item {
-    border-left:10px solid transparent;
-    border-right:10px solid transparent;
-}
-</style>
-
-<!-- you need to include the shieldui css and js assets in order for the charts to work -->
-<link rel="stylesheet" type="text/css" href="http://www.shieldui.com/shared/components/latest/css/shieldui-all.min.css" />
-<link rel="stylesheet" type="text/css" href="http://www.shieldui.com/shared/components/latest/css/light/all.min.css" />
-<script type="text/javascript" src="http://www.shieldui.com/shared/components/latest/js/shieldui-all.min.js"></script>
-
-<script type="text/javascript">
-    jQuery(function ($) {
-        $('#rate1').shieldRating({
-            max: 10,
-            step: 0.1,
-            value: 7.3,
-            markPreset: false
-        });
-        $('#rate2').shieldRating({
-            max: 10,
-            step: 0.1,
-            value: 2.7,
-            markPreset: false
-        });
-        $('#rate3').shieldRating({
-            max: 10,
-            step: 0.1,
-            value: 9.3,
-            markPreset: false
-        });
-    });
-</script>
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
